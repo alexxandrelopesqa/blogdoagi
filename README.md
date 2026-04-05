@@ -1,161 +1,219 @@
-# Blog do Agi — Automação Web (Playwright + JUnit 5 + Allure)
+# Blog do Agi - Automacao Web (Playwright + JUnit 5 + Allure)
 
 [![Playwright E2E + Allure](https://github.com/alexxandrelopesqa/blogdoagi/actions/workflows/playwright.yml/badge.svg)](https://github.com/alexxandrelopesqa/blogdoagi/actions/workflows/playwright.yml)
 [![Java](https://img.shields.io/badge/Java-17-007396?logo=openjdk&logoColor=white)](https://adoptium.net/)
 [![Playwright](https://img.shields.io/badge/Playwright-1.58.0-2ead33?logo=playwright)](https://playwright.dev/java/)
 
-## Sobre o projeto
+Suite E2E para o desafio de automacao do Agibank, focada no fluxo de busca do [Blog do Agi](https://blog.agibank.com.br/).
 
-Suite de testes end-to-end do **[Blog do Agi](https://blog.agibank.com.br/)**, no contexto do desafio de automação do Agibank. O foco é validar a **busca no blog** (fluxo feliz e cenário sem resultados), com **Page Object Model (POM)** explícito, separação de responsabilidades (`core`, `pages`, `tests`) e **Clean Code** (nomes claros, locators resilientes, sem lógica de negócio nas páginas).
+## Comece em 2 minutos
 
-**Decisões de arquitetura**
+```bash
+git clone https://github.com/alexxandrelopesqa/blogdoagi
+cd blogdoagi
+mvn -B exec:java
+mvn clean test
+mvn allure:report
+```
 
-- **POM estrito**: `BlogHomePage` e `SearchResultsPage` encapsulam elementos e ações; os testes apenas orquestram e asserem.
-- **Playwright Assertions** (`assertThat`): asserções auto-retry alinhadas ao modelo de UI do Playwright.
-- **JUnit 5 + Allure**: relatórios ricos para CI e histórico; extensão Allure com autodetecção habilitada.
-- **Configuração por ambiente**: modo headless via variável `HEADLESS` (ou `CI` por padrão).
+Abra o relatorio em `target/site/allure-maven-plugin/index.html`.
 
-## Pré-requisitos
+## O que este projeto cobre
 
-| Ferramenta | Uso |
-|------------|-----|
-| **JDK 17** | Compilação e execução |
-| **Maven 3.9+** | Build e dependências |
-| **Git** | Clone do repositório |
-| **Docker** (opcional) | Execução em contêiner com imagem oficial Playwright Java |
+- Busca por termo existente (`Investimentos`)
+- Busca por termo inexistente (`xyz123_nonexistent_search`)
+- Validacao de URL, lista de resultados e estabilidade de layout
+- Evidencias por teste no Allure (screenshot, video, trace e logs)
 
-## Execução local
+## Arquitetura
 
-### 1. Clonar o repositório
+Estrutura principal:
+
+```text
+src/test/java/
+├── core/BaseTest.java
+├── pages/BlogHomePage.java
+├── pages/SearchResultsPage.java
+└── tests/BlogSearchTest.java
+```
+
+Decisoes adotadas:
+
+- `Page Object Model` para separar interacao de UI e assercoes
+- `PlaywrightAssertions.assertThat` para validacoes robustas
+- Configuracao por ambiente (`BROWSER`, `HEADLESS`, `CI`)
+- Pipeline multi-browser no GitHub Actions
+
+## Pre-requisitos
+
+| Ferramenta | Versao sugerida | Uso |
+|---|---|---|
+| Java | 17+ | Compilacao e execucao |
+| Maven | 3.9+ | Build, testes e relatorios |
+| Git | recente | Clone e versionamento |
+| Docker | opcional | Execucao isolada |
+
+## Execucao local
+
+### 1) Clonar repositorio
 
 ```bash
 git clone https://github.com/alexxandrelopesqa/blogdoagi
 cd blogdoagi
 ```
 
-### 2. Baixar dependências Maven
+### 2) Instalar dependencias do projeto
 
 ```bash
 mvn -B clean install -DskipTests
 ```
 
-### 3. Instalar os navegadores do Playwright
-
-Os binários não vêm no JAR; instale uma vez (Linux/macOS/Windows):
+### 3) Instalar navegadores Playwright (uma vez)
 
 ```bash
 mvn -B exec:java
 ```
 
-No PowerShell, se preferir manter argumentos `-D` no futuro, use aspas para evitar parsing do shell:
-
-```powershell
-mvn -B "exec:java" "-Dalguma.propriedade=valor"
-```
-
-### 4. Rodar os testes
+### 4) Rodar suite completa
 
 ```bash
 mvn clean test
 ```
 
-Selecionando navegador por ambiente (`BROWSER`):
+### 5) Rodar por navegador
+
+Windows PowerShell:
 
 ```powershell
-# Windows PowerShell
 $env:BROWSER = "chromium"; mvn clean test
 $env:BROWSER = "firefox";  mvn clean test
 $env:BROWSER = "webkit";   mvn clean test
 ```
 
+Linux/macOS:
+
 ```bash
-# Linux / macOS
 BROWSER=chromium mvn clean test
 BROWSER=firefox  mvn clean test
 BROWSER=webkit   mvn clean test
 ```
 
-Para ver o navegador localmente (headless desligado por padrão quando `CI` não está definido):
+### 6) Rodar em modo visual (headed)
+
+Windows PowerShell:
 
 ```powershell
-# Windows PowerShell
 $env:HEADLESS = "false"; mvn clean test
 ```
 
+Linux/macOS:
+
 ```bash
-# Linux / macOS
 HEADLESS=false mvn clean test
 ```
 
-## Relatório Allure (local)
+## Variaveis de ambiente
 
-Após `mvn test`, os resultados brutos ficam em `target/allure-results`.
-Evidências adicionais (anexadas automaticamente no Allure) ficam em `target/artifacts`:
+| Variavel | Default | Valores esperados | Efeito |
+|---|---|---|---|
+| `BROWSER` | `chromium` | `chromium`, `firefox`, `webkit` | Define engine de execucao |
+| `HEADLESS` | `true` no CI, caso contrario `false` | `true`/`false` | Executa com/sem UI |
+| `CI` | ausente local | `true`/ausente | Ajusta comportamento para pipeline |
 
-- screenshots (`target/artifacts/...` + anexo no Allure)
-- vídeos por teste (`target/artifacts/videos`)
-- traces Playwright (`target/artifacts/traces`)
-- logs de runtime (console, page errors, request failures)
-- metadata do relatório (`environment.properties`, `executor.json`, `categories.json`)
+## Relatorio Allure
 
-### Opção A — Maven (plugin Allure)
+### Gerar relatorio local
 
 ```bash
 mvn allure:report
 ```
 
-Abra o relatório gerado (geralmente em `target/site/allure-maven-plugin/index.html` no navegador).
+Saida principal:
 
-### Opção B — Allure CLI
+- HTML: `target/site/allure-maven-plugin`
+- Resultados brutos: `target/allure-results`
+- Artefatos extras: `target/artifacts`
 
-Instale o [Allure Commandline](https://github.com/allure-framework/allure2/releases) e execute:
+### Evidencias geradas por teste
+
+- Screenshot (`.png`)
+- Video (`.webm`)
+- Trace (`.zip`)
+- Logs de runtime (`.txt`)
+- Metadata (`environment.properties`, `executor.json`, `categories.json`)
+
+### Dica importante
+
+Se abrir o Allure por `file://` e ficar em "Loading...", sirva por HTTP local:
 
 ```bash
-allure serve target/allure-results
+cd target/site/allure-maven-plugin
+py -m http.server 5050
 ```
 
-O navegador abrirá o relatório interativo.
+Depois abra `http://localhost:5050`.
 
 ## Docker
 
-A imagem **deve** usar a mesma versão do Playwright do `pom.xml` (ver [documentação Playwright Java — Docker](https://playwright.dev/java/docs/docker)).
+Build:
 
 ```bash
 docker build -t blog-do-agi-tests .
+```
+
+Execucao:
+
+```bash
 docker run --rm --ipc=host blog-do-agi-tests
 ```
 
-Recomendações da Microsoft: `--ipc=host` para Chromium em Docker; em produção, use `root` apenas para testes confiáveis.
-
 ## CI/CD (GitHub Actions)
 
-O workflow `.github/workflows/playwright.yml`:
+Workflow: `.github/workflows/playwright.yml`
 
-1. Checkout do código  
-2. JDK 17 (Temurin) + cache Maven  
-3. Instalação dos navegadores Playwright (`exec:java`)  
-4. `mvn clean test` com `CI=true`, `HEADLESS=true` e matriz de `BROWSER` (`chromium`, `firefox`, `webkit`)  
-5. Geração do relatório Allure com `mvn allure:report`  
-6. Upload dos artefatos `allure-report-chromium`, `allure-report-firefox` e `allure-report-webkit`  
-7. Upload dos resultados brutos `allure-results-chromium`, `allure-results-firefox` e `allure-results-webkit`  
-8. Publicação no **GitHub Pages** (branch `gh-pages`) via job dedicado de deploy, usando o artefato `chromium`, apenas em pushes às branches `main` ou `master`
+O pipeline executa:
 
-**Configuração no GitHub**
+1. Checkout
+2. Java 17 + cache Maven
+3. Instalacao de browsers (`mvn -B -q exec:java`)
+4. Testes em matriz (`chromium`, `firefox`, `webkit`)
+5. Geracao de Allure (`mvn -B allure:report`)
+6. Upload de artefatos:
+   - `allure-report-<browser>`
+   - `allure-results-<browser>`
+7. Deploy no GitHub Pages com artefato de `chromium`
 
-1. Em **Settings → Pages**, escolha a fonte **Deploy from a branch** e a branch `gh-pages` (raiz `/`).  
-2. Se você fez fork ou renomeou o repositório, atualize as URLs nos **badges** (topo deste README) e o exemplo de `git clone` na seção **Execução local** para o seu `usuario/repositorio`.  
-3. Após o primeiro push em `main` ou `master` com o workflow concluído, o relatório pode levar alguns minutos para aparecer no endereço do GitHub Pages.
+## GitHub Pages
 
-## Estrutura do repositório
+No repositorio, configure:
 
+1. `Settings > Pages`
+2. Source: `Deploy from a branch`
+3. Branch: `gh-pages` e pasta `/(root)`
+
+A publicacao ocorre apos pipeline verde em push para `main`/`master`.
+
+## Troubleshooting rapido
+
+### `Unknown lifecycle phase ".classpathScope=test"` no PowerShell
+
+Use:
+
+```powershell
+mvn -B exec:java
 ```
-src/test/java/
-├── core/BaseTest.java          # Ciclo de vida Playwright + headless
-├── pages/BlogHomePage.java     # Busca (lupa, input, envio, chat flutuante)
-├── pages/SearchResultsPage.java# Resultados, vazio, busca secundária, sidebar
-└── tests/BlogSearchTest.java   # Cenários + assertThat
-```
 
-## Licença
+### Allure abre sem dados (só "Loading...")
 
-Uso educacional / desafio técnico. Marca **Agibank** e conteúdo do blog pertencem aos respectivos titulares.
+Abra por HTTP local (nao por `file://`) conforme secao de Allure.
+
+### Erro de push com 403 no GitHub
+
+Token sem escopo de escrita em repo/workflow. Gere token com:
+
+- `repo` (classic) ou `Contents: Read and write` (fine-grained)
+- `workflow` (classic) ou permissao equivalente para alterar `.github/workflows/*`
+
+## Licenca
+
+Uso educacional / desafio tecnico. Marca Agibank e conteudo do blog pertencem aos respectivos titulares.
