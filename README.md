@@ -121,6 +121,7 @@ HEADLESS=false ./mvnw clean test
 | `CI` | ausente local | `true`/ausente | Ajusta comportamento para pipeline |
 | `BASE_URL` | `https://blog.agibank.com.br` | URL valida (http/https) | Permite apontar para ambiente local/staging |
 | `PLAYWRIGHT_BROWSERS_PATH` | cache global do usuario | caminho local | Mantem browsers Playwright dentro do projeto |
+| `ATTACH_EVIDENCE` | `true` local / `false` CI | `true`/`false` | Controla anexos sensiveis (screenshot/video/trace/logs) |
 
 ## Relatorio Allure
 
@@ -169,6 +170,8 @@ Execucao:
 docker run --rm --ipc=host blog-do-agi-tests
 ```
 
+O container executa com usuario nao-root (`pwuser`) e usa `mvnw` interno para reduzir acoplamento com ferramenta global.
+
 ## CI/CD (GitHub Actions)
 
 Workflow: `.github/workflows/playwright.yml`
@@ -182,8 +185,12 @@ O pipeline executa:
 5. Geracao de Allure (`./mvnw -B allure:report`)
 6. Upload de artefatos:
    - `allure-report-<browser>`
-   - `allure-results-<browser>`
 7. Deploy no GitHub Pages com artefato de `chromium`
+
+Seguranca aplicada no workflow:
+
+- Actions fixadas por commit SHA (supply-chain hardening)
+- `ATTACH_EVIDENCE=false` no CI para evitar exposicao de anexos sensiveis no report publicado
 
 ## GitHub Pages
 
