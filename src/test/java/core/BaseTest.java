@@ -12,10 +12,13 @@ import org.junit.jupiter.api.BeforeEach;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Optional;
+import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -27,6 +30,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public abstract class BaseTest {
 
     public static final String BASE_URL = "https://blog.agibank.com.br";
+    private static final Path ALLURE_RESULTS_DIR = Paths.get("target", "allure-results");
     private static final Path VIDEOS_DIR = Paths.get("target", "artifacts", "videos");
     private static final Path TRACES_DIR = Paths.get("target", "artifacts", "traces");
 
@@ -51,6 +55,7 @@ public abstract class BaseTest {
                     "Valor inválido para BROWSER: " + browserName + ". Use: chromium, firefox ou webkit.");
         };
         System.out.println("Running tests on browser: " + browserName);
+        writeAllureMetadataFiles();
     }
 
     @BeforeEach
@@ -104,11 +109,78 @@ public abstract class BaseTest {
 
     private static void createArtifactsDirs() {
         try {
+            Files.createDirectories(ALLURE_RESULTS_DIR);
             Files.createDirectories(VIDEOS_DIR);
             Files.createDirectories(TRACES_DIR);
         } catch (IOException e) {
             throw new RuntimeException("Falha ao criar diretórios de artefatos.", e);
         }
+    }
+
+    private static void writeAllureMetadataFiles() {
+        createArtifactsDirs();
+        writeEnvironmentProperties();
+        writeExecutorJson();
+        copyCategoriesFile();
+    }
+
+    private static void writeEnvironmentProperties() {
+        Properties env = new Properties();
+        env.setProperty("Application", "Blog do Agi");
+        env.setProperty("Base URL", BASE_URL);
+        env.setProperty("Browser", browserName());
+        env.setProperty("Headless", String.valueOf(isHeadless()));
+        env.setProperty("CI", String.valueOf(System.getenv("CI") != null));
+        env.setProperty("OS", System.getProperty("os.name") + " " + System.getProperty("os.version"));
+        env.setProperty("Java", System.getProperty("java.version"));
+
+        Path file = ALLURE_RESULTS_DIR.resolve("environment.properties");
+        try (var out = Files.newOutputStream(file)) {
+            env.store(out, "Allure environment metadata");
+        } catch (IOException e) {
+            System.err.println("Falha ao gerar environment.properties do Allure: " + e.getMessage());
+        }
+    }
+
+    private static void writeExecutorJson() {
+        String runId = Optional.ofNullable(System.getenv("GITHUB_RUN_ID")).orElse("local");
+        String buildUrl = Optional.ofNullable(System.getenv("GITHUB_SERVER_URL"))
+                .flatMap(server -> Optional.ofNullable(System.getenv("GITHUB_REPOSITORY"))
+                        .flatMap(repo -> Optional.ofNullable(System.getenv("GITHUB_RUN_ID"))
+                                .map(id -> server + "/" + repo + "/actions/runs/" + id)))
+                .orElse("");
+        String buildName = Optional.ofNullable(System.getenv("GITHUB_WORKFLOW")).orElse("Local execution");
+
+        String json = "{\n"
+                + "  \"name\": \"GitHub Actions\",\n"
+                + "  \"type\": \"github\",\n"
+                + "  \"buildName\": \"" + escapeJson(buildName) + "\",\n"
+                + "  \"buildOrder\": " + "\"" + escapeJson(runId) + "\",\n"
+                + "  \"buildUrl\": \"" + escapeJson(buildUrl) + "\",\n"
+                + "  \"reportName\": \"Allure Report\",\n"
+                + "  \"reportUrl\": \"\"\n"
+                + "}";
+        try {
+            Files.writeString(ALLURE_RESULTS_DIR.resolve("executor.json"), json, StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            System.err.println("Falha ao gerar executor.json do Allure: " + e.getMessage());
+        }
+    }
+
+    private static void copyCategoriesFile() {
+        Path target = ALLURE_RESULTS_DIR.resolve("categories.json");
+        try (InputStream in = BaseTest.class.getResourceAsStream("/allure/categories.json")) {
+            if (in == null) {
+                return;
+            }
+            Files.copy(in, target, java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            System.err.println("Falha ao copiar categories.json do Allure: " + e.getMessage());
+        }
+    }
+
+    private static String escapeJson(String value) {
+        return value.replace("\\", "\\\\").replace("\"", "\\\"");
     }
 
     private void bindRuntimeLogListeners() {

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Falhas de Asserção",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*AssertionFailedError.*|.*expected.*but.*was.*"
+  },
+  {
+    "name": "Falhas de Timeout/Espera",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "messageRegex": ".*Timeout.*|.*timed out.*|.*wait.*"
+  },
+  {
+    "name": "Falhas de Navegação/Rede",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*net::ERR.*|.*request failed.*|.*Connection.*|.*DNS.*"
+  },
+  {
+    "name": "Erros de Infraestrutura",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*IOException.*|.*PlaywrightException.*|.*MojoFailureException.*"
+  }
+]

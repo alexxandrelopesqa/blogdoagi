@@ -4,6 +4,7 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.PlaywrightException;
 import com.microsoft.playwright.options.WaitUntilState;
+import io.qameta.allure.Step;
 
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
@@ -41,6 +42,7 @@ public class BlogHomePage {
                 .first();
     }
 
+    @Step("Acessar a home do Blog do Agi")
     public BlogHomePage navigate() {
         page.navigate(BASE_URL);
         page.waitForLoadState();
@@ -50,6 +52,7 @@ public class BlogHomePage {
     /**
      * Garante que o campo de busca esteja utilizável (abre overlay se necessário).
      */
+    @Step("Garantir que a busca esteja visível")
     public BlogHomePage ensureSearchVisible() {
         if (visibleSearchInput().count() == 0) {
             if (searchToggle.count() > 0) {
@@ -59,6 +62,7 @@ public class BlogHomePage {
         return this;
     }
 
+    @Step("Buscar por termo: {query}")
     public SearchResultsPage search(String query) {
         ensureSearchVisible();
         Locator input = visibleSearchInput();
