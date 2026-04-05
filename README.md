@@ -90,6 +90,12 @@ HEADLESS=false mvn clean test
 ## Relatório Allure (local)
 
 Após `mvn test`, os resultados brutos ficam em `target/allure-results`.
+Evidências adicionais (anexadas automaticamente no Allure) ficam em `target/artifacts`:
+
+- screenshots (`target/artifacts/...` + anexo no Allure)
+- vídeos por teste (`target/artifacts/videos`)
+- traces Playwright (`target/artifacts/traces`)
+- logs de runtime (console, page errors, request failures)
 
 ### Opção A — Maven (plugin Allure)
 

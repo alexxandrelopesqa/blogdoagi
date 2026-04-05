@@ -22,12 +22,16 @@ class BlogSearchTest extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Cenário 1: busca 'Investimentos' — URL, título de resultados e card de artigo")
     void buscaInvestimentos_retornaResultados() {
-        var results = new BlogHomePage(page).navigate().search("Investimentos");
+        try {
+            var results = new BlogHomePage(page).navigate().search("Investimentos");
 
-        assertThat(page).hasURL(Pattern.compile(".*[?&]s=Investimentos.*"));
-        assertThat(results.resultsHeading()).isVisible();
-        assertThat(results.articleCards().first()).isVisible();
-        assertThat(results.articleCards().first().locator("a").first()).isVisible();
+            assertThat(page).hasURL(Pattern.compile(".*[?&]s=Investimentos.*"));
+            assertThat(results.resultsHeading()).isVisible();
+            assertThat(results.articleCards().first()).isVisible();
+            assertThat(results.articleCards().first().locator("a").first()).isVisible();
+        } finally {
+            finalizeEvidenceInTestContext("cenario1-investimentos");
+        }
     }
 
     @Test
@@ -35,12 +39,16 @@ class BlogSearchTest extends BaseTest {
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Cenário 2: termo inexistente — mensagem, busca secundária e layout (sidebar + chat)")
     void buscaSemResultados_preservaLayout() {
-        var home = new BlogHomePage(page).navigate();
-        var results = home.search("xyz123_nonexistent_search");
+        try {
+            var home = new BlogHomePage(page).navigate();
+            var results = home.search("xyz123_nonexistent_search");
 
-        assertThat(page).hasURL(Pattern.compile(".*[?&]s=xyz123_nonexistent_search.*"));
-        assertThat(page.getByText(SearchResultsPage.NO_RESULTS_FULL_TEXT)).isVisible();
-        assertThat(results.secondarySearchBar()).isVisible();
-        assertThat(results.newsletterSidebar().or(home.floatingActionOrChat())).isVisible();
+            assertThat(page).hasURL(Pattern.compile(".*[?&]s=xyz123_nonexistent_search.*"));
+            assertThat(page.getByText(SearchResultsPage.NO_RESULTS_FULL_TEXT)).isVisible();
+            assertThat(results.secondarySearchBar()).isVisible();
+            assertThat(results.newsletterSidebar().or(home.floatingActionOrChat())).isVisible();
+        } finally {
+            finalizeEvidenceInTestContext("cenario2-sem-resultado");
+        }
     }
 }
