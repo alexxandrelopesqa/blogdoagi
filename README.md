@@ -96,6 +96,7 @@ Evidências adicionais (anexadas automaticamente no Allure) ficam em `target/art
 - vídeos por teste (`target/artifacts/videos`)
 - traces Playwright (`target/artifacts/traces`)
 - logs de runtime (console, page errors, request failures)
+- metadata do relatório (`environment.properties`, `executor.json`, `categories.json`)
 
 ### Opção A — Maven (plugin Allure)
 
@@ -136,7 +137,8 @@ O workflow `.github/workflows/playwright.yml`:
 4. `mvn clean test` com `CI=true`, `HEADLESS=true` e matriz de `BROWSER` (`chromium`, `firefox`, `webkit`)  
 5. Geração do relatório Allure com `mvn allure:report`  
 6. Upload dos artefatos `allure-report-chromium`, `allure-report-firefox` e `allure-report-webkit`  
-7. Publicação no **GitHub Pages** (branch `gh-pages`) via job dedicado de deploy, usando o artefato `chromium`, apenas em pushes às branches `main` ou `master`
+7. Upload dos resultados brutos `allure-results-chromium`, `allure-results-firefox` e `allure-results-webkit`  
+8. Publicação no **GitHub Pages** (branch `gh-pages`) via job dedicado de deploy, usando o artefato `chromium`, apenas em pushes às branches `main` ou `master`
 
 **Configuração no GitHub**
 

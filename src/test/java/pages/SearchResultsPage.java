@@ -3,6 +3,7 @@ package pages;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
+import io.qameta.allure.Step;
 
 import java.util.regex.Pattern;
 
@@ -34,14 +35,17 @@ public class SearchResultsPage {
                 .first();
     }
 
+    @Step("Ler heading de resultados")
     public Locator resultsHeading() {
         return resultsHeading;
     }
 
+    @Step("Ler lista de cards de artigos")
     public Locator articleCards() {
         return articleCards;
     }
 
+    @Step("Ler mensagem de nenhum resultado")
     public Locator noResultsMessage() {
         return noResultsMessage;
     }
@@ -49,6 +53,7 @@ public class SearchResultsPage {
     /**
      * Barra de busca “secundária”: segundo campo {@code s} quando existir; caso contrário o único visível.
      */
+    @Step("Ler barra de busca secundária")
     public Locator secondarySearchBar() {
         var inputs = page.locator("input[name='s']");
         int n = inputs.count();
@@ -58,6 +63,7 @@ public class SearchResultsPage {
         return inputs.first();
     }
 
+    @Step("Ler sidebar/newsletter")
     public Locator newsletterSidebar() {
         return newsletterSidebar;
     }
