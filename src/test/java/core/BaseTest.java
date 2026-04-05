@@ -41,6 +41,7 @@ public abstract class BaseTest {
     protected com.microsoft.playwright.Page page;
     private com.microsoft.playwright.BrowserContext context;
     private StringBuilder runtimeLogs;
+    private boolean attachEvidence;
 
     @BeforeAll
     static void launchBrowser() {
@@ -61,12 +62,17 @@ public abstract class BaseTest {
     @BeforeEach
     void createPage(TestInfo testInfo) {
         createArtifactsDirs();
-        context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(VIDEOS_DIR));
-        context.tracing().start(new com.microsoft.playwright.Tracing.StartOptions()
-                .setName(safeTestName(testInfo))
-                .setScreenshots(true)
-                .setSnapshots(true)
-                .setSources(true));
+        attachEvidence = attachEvidenceEnabled();
+        if (attachEvidence) {
+            context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(VIDEOS_DIR));
+            context.tracing().start(new com.microsoft.playwright.Tracing.StartOptions()
+                    .setName(safeTestName(testInfo))
+                    .setScreenshots(true)
+                    .setSnapshots(true)
+                    .setSources(true));
+        } else {
+            context = browser.newContext();
+        }
 
         page = context.newPage();
         runtimeLogs = new StringBuilder();
@@ -115,6 +121,12 @@ public abstract class BaseTest {
                 .orElse("https://blog.agibank.com.br");
     }
 
+    private static boolean attachEvidenceEnabled() {
+        return Optional.ofNullable(System.getenv("ATTACH_EVIDENCE"))
+                .map(Boolean::parseBoolean)
+                .orElseGet(() -> System.getenv("CI") == null);
+    }
+
     private static void createArtifactsDirs() {
         try {
             Files.createDirectories(ALLURE_RESULTS_DIR);
@@ -139,6 +151,7 @@ public abstract class BaseTest {
         env.setProperty("Browser", browserName());
         env.setProperty("Headless", String.valueOf(isHeadless()));
         env.setProperty("CI", String.valueOf(System.getenv("CI") != null));
+        env.setProperty("Attach Evidence", String.valueOf(attachEvidenceEnabled()));
         env.setProperty("OS", System.getProperty("os.name") + " " + System.getProperty("os.version"));
         env.setProperty("Java", System.getProperty("java.version"));
 
@@ -227,16 +240,21 @@ public abstract class BaseTest {
     protected void finalizeEvidenceInTestContext(String displayName) {
         String artifactBaseName = safeTestName(displayName);
         try {
-            attachScreenshot(artifactBaseName + "-screenshot");
-            attachRuntimeLogs(artifactBaseName + "-runtime-logs");
-            stopAndAttachTrace(artifactBaseName + "-trace.zip");
+            if (attachEvidence) {
+                attachScreenshot(artifactBaseName + "-screenshot");
+                attachRuntimeLogs(artifactBaseName + "-runtime-logs");
+                stopAndAttachTrace(artifactBaseName + "-trace.zip");
+            }
         } finally {
-            Path videoPath = captureVideoPathIfAny();
+            Path videoPath = attachEvidence ? captureVideoPathIfAny() : null;
             closeContextSafely();
-            attachVideoIfAny(artifactBaseName + "-video.webm", videoPath);
+            if (attachEvidence) {
+                attachVideoIfAny(artifactBaseName + "-video.webm", videoPath);
+            }
             page = null;
             context = null;
             runtimeLogs = null;
+            attachEvidence = false;
         }
     }
 
