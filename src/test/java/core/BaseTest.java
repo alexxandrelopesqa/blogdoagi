@@ -29,7 +29,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public abstract class BaseTest {
 
-    public static final String BASE_URL = "https://blog.agibank.com.br";
+    public static final String BASE_URL = resolveBaseUrl();
     private static final Path ALLURE_RESULTS_DIR = Paths.get("target", "allure-results");
     private static final Path VIDEOS_DIR = Paths.get("target", "artifacts", "videos");
     private static final Path TRACES_DIR = Paths.get("target", "artifacts", "traces");
@@ -105,6 +105,14 @@ public abstract class BaseTest {
                 .map(String::toLowerCase)
                 .filter(v -> !v.isEmpty())
                 .orElse("chromium");
+    }
+
+    private static String resolveBaseUrl() {
+        return Optional.ofNullable(System.getProperty("base.url"))
+                .or(() -> Optional.ofNullable(System.getenv("BASE_URL")))
+                .map(String::trim)
+                .filter(v -> !v.isEmpty())
+                .orElse("https://blog.agibank.com.br");
     }
 
     private static void createArtifactsDirs() {

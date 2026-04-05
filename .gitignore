@@ -48,3 +48,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local tools and browser cache
+.tools/
+.playwright-browsers/

@@ -11,9 +11,9 @@ Suite E2E para o desafio de automacao do Agibank, focada no fluxo de busca do [B
 ```bash
 git clone https://github.com/alexxandrelopesqa/blogdoagi
 cd blogdoagi
-mvn -B exec:java
-mvn clean test
-mvn allure:report
+./mvnw -B exec:java
+./mvnw clean test
+./mvnw allure:report
 ```
 
 Abra o relatorio em `target/site/allure-maven-plugin/index.html`.
@@ -49,7 +49,7 @@ Decisoes adotadas:
 | Ferramenta | Versao sugerida | Uso |
 |---|---|---|
 | Java | 17+ | Compilacao e execucao |
-| Maven | 3.9+ | Build, testes e relatorios |
+| Maven | nao obrigatorio (wrapper incluso) | Build, testes e relatorios |
 | Git | recente | Clone e versionamento |
 | Docker | opcional | Execucao isolada |
 
@@ -65,19 +65,19 @@ cd blogdoagi
 ### 2) Instalar dependencias do projeto
 
 ```bash
-mvn -B clean install -DskipTests
+./mvnw -B clean install -DskipTests
 ```
 
 ### 3) Instalar navegadores Playwright (uma vez)
 
 ```bash
-mvn -B exec:java
+./mvnw -B exec:java
 ```
 
 ### 4) Rodar suite completa
 
 ```bash
-mvn clean test
+./mvnw clean test
 ```
 
 ### 5) Rodar por navegador
@@ -85,17 +85,17 @@ mvn clean test
 Windows PowerShell:
 
 ```powershell
-$env:BROWSER = "chromium"; mvn clean test
-$env:BROWSER = "firefox";  mvn clean test
-$env:BROWSER = "webkit";   mvn clean test
+$env:BROWSER = "chromium"; .\mvnw.cmd clean test
+$env:BROWSER = "firefox";  .\mvnw.cmd clean test
+$env:BROWSER = "webkit";   .\mvnw.cmd clean test
 ```
 
 Linux/macOS:
 
 ```bash
-BROWSER=chromium mvn clean test
-BROWSER=firefox  mvn clean test
-BROWSER=webkit   mvn clean test
+BROWSER=chromium ./mvnw clean test
+BROWSER=firefox  ./mvnw clean test
+BROWSER=webkit   ./mvnw clean test
 ```
 
 ### 6) Rodar em modo visual (headed)
@@ -103,13 +103,13 @@ BROWSER=webkit   mvn clean test
 Windows PowerShell:
 
 ```powershell
-$env:HEADLESS = "false"; mvn clean test
+$env:HEADLESS = "false"; .\mvnw.cmd clean test
 ```
 
 Linux/macOS:
 
 ```bash
-HEADLESS=false mvn clean test
+HEADLESS=false ./mvnw clean test
 ```
 
 ## Variaveis de ambiente
@@ -119,13 +119,15 @@ HEADLESS=false mvn clean test
 | `BROWSER` | `chromium` | `chromium`, `firefox`, `webkit` | Define engine de execucao |
 | `HEADLESS` | `true` no CI, caso contrario `false` | `true`/`false` | Executa com/sem UI |
 | `CI` | ausente local | `true`/ausente | Ajusta comportamento para pipeline |
+| `BASE_URL` | `https://blog.agibank.com.br` | URL valida (http/https) | Permite apontar para ambiente local/staging |
+| `PLAYWRIGHT_BROWSERS_PATH` | cache global do usuario | caminho local | Mantem browsers Playwright dentro do projeto |
 
 ## Relatorio Allure
 
 ### Gerar relatorio local
 
 ```bash
-mvn allure:report
+./mvnw allure:report
 ```
 
 Saida principal:
@@ -175,9 +177,9 @@ O pipeline executa:
 
 1. Checkout
 2. Java 17 + cache Maven
-3. Instalacao de browsers (`mvn -B -q exec:java`)
+3. Instalacao de browsers (`./mvnw -B -q exec:java`)
 4. Testes em matriz (`chromium`, `firefox`, `webkit`)
-5. Geracao de Allure (`mvn -B allure:report`)
+5. Geracao de Allure (`./mvnw -B allure:report`)
 6. Upload de artefatos:
    - `allure-report-<browser>`
    - `allure-results-<browser>`
@@ -200,8 +202,30 @@ A publicacao ocorre apos pipeline verde em push para `main`/`master`.
 Use:
 
 ```powershell
-mvn -B exec:java
+.\mvnw.cmd -B exec:java
 ```
+
+## Execucao local com baixa dependencia externa
+
+Para reduzir dependencia de ferramentas instaladas na maquina e permitir execucoes offline apos o bootstrap:
+
+1. Use sempre `mvnw`/`mvnw.cmd` (Maven Wrapper incluso no repo).
+2. Configure cache local dos browsers Playwright no proprio projeto:
+
+```powershell
+$env:PLAYWRIGHT_BROWSERS_PATH = ".playwright-browsers"
+.\mvnw.cmd -B exec:java
+.\mvnw.cmd -B clean test
+```
+
+3. Depois do primeiro bootstrap online, rode em modo offline:
+
+```powershell
+$env:PLAYWRIGHT_BROWSERS_PATH = ".playwright-browsers"
+.\mvnw.cmd -o clean test
+```
+
+Observacao: para testar o site real (`blog.agibank.com.br`) ainda e necessario acesso a internet. Se quiser execucao 100% offline, aponte `BASE_URL` para um ambiente local espelho/mocado.
 
 ### Allure abre sem dados (só "Loading...")
 
