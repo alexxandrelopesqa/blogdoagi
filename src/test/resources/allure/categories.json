@@ -1,31 +1,48 @@
 [
   {
-    "name": "Falhas de Asserção",
+    "name": "Falha Funcional (Assercao)",
     "matchedStatuses": [
       "failed"
     ],
-    "messageRegex": ".*AssertionFailedError.*|.*expected.*but.*was.*"
+    "messageRegex": "(?i).*AssertionFailedError.*|.*expected:.*but was:.*|.*expect.*to.*"
   },
   {
-    "name": "Falhas de Timeout/Espera",
+    "name": "Timeout / Espera",
     "matchedStatuses": [
       "broken",
       "failed"
     ],
-    "messageRegex": ".*Timeout.*|.*timed out.*|.*wait.*"
+    "messageRegex": "(?i).*Timeout.*|.*timed out.*|.*waiting for.*|.*waitFor.*"
   },
   {
-    "name": "Falhas de Navegação/Rede",
+    "name": "Elemento / Locator",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": "(?i).*locator.*|.*strict mode violation.*|.*No node found.*|.*element is not attached.*"
+  },
+  {
+    "name": "Navegacao / Rede",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": "(?i).*net::ERR.*|.*DNS.*|.*Connection.*|.*request failed.*|.*ERR_ABORTED.*"
+  },
+  {
+    "name": "Infra de Execucao (CI/Build)",
     "matchedStatuses": [
       "broken"
     ],
-    "messageRegex": ".*net::ERR.*|.*request failed.*|.*Connection.*|.*DNS.*"
+    "messageRegex": "(?i).*MojoFailureException.*|.*IOException.*|.*Failed to launch browser.*|.*browserType.launch.*|.*No space left on device.*"
   },
   {
-    "name": "Erros de Infraestrutura",
+    "name": "Erro Nao Classificado",
     "matchedStatuses": [
+      "failed",
       "broken"
     ],
-    "messageRegex": ".*IOException.*|.*PlaywrightException.*|.*MojoFailureException.*"
+    "messageRegex": "(?i).*Exception.*|.*Error.*"
   }
 ]

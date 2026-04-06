@@ -190,7 +190,21 @@ O pipeline executa:
 Seguranca aplicada no workflow:
 
 - Actions fixadas por commit SHA (supply-chain hardening)
-- `ATTACH_EVIDENCE=false` no CI para evitar exposicao de anexos sensiveis no report publicado
+- Em `push`/`pull_request`, `ATTACH_EVIDENCE=false` para evitar exposicao de anexos sensiveis
+- Em `workflow_dispatch`, e possivel ativar evidencias com input `attach_evidence=true` (somente `chromium`)
+
+### Evidencias no GitHub Actions
+
+Se quiser gerar anexos no Allure publicado pelo CI:
+
+1. Abra **Actions > Playwright E2E + Allure > Run workflow**
+2. Selecione `attach_evidence=true`
+3. Dispare a execucao
+
+Observacoes:
+
+- Evidencias no CI sao habilitadas apenas no `chromium`
+- Em execucoes automáticas (`push`/`pull_request`) as evidencias seguem desativadas por seguranca
 
 ## GitHub Pages
 

@@ -6,6 +6,15 @@ on:
   pull_request:
     branches: [main, master]
   workflow_dispatch:
+    inputs:
+      attach_evidence:
+        description: "Anexar evidencias no Allure (somente chromium)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -47,7 +56,7 @@ jobs:
           BROWSER: ${{ matrix.browser }}
           CI: true
           HEADLESS: "true"
-          ATTACH_EVIDENCE: "false"
+          ATTACH_EVIDENCE: ${{ github.event_name == 'workflow_dispatch' && inputs.attach_evidence == 'true' && matrix.browser == 'chromium' && 'true' || 'false' }}
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
         run: ./mvnw -B clean test
 
