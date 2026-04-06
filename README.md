@@ -202,6 +202,32 @@ As evidencias ficam habilitadas no CI por padrao (`ATTACH_EVIDENCE=true`) para m
 - trace
 - logs de runtime
 
+## CI com Jenkins
+
+O repositorio inclui um `Jenkinsfile` declarativo para execucao CI em Jenkins.
+
+Fluxo do pipeline Jenkins:
+
+1. Checkout do repositório
+2. Preparacao do Maven Wrapper (`chmod +x mvnw`)
+3. Download de dependencias (`dependency:go-offline`)
+4. Instalacao de browsers Playwright (`exec:java`)
+5. Execucao dos testes (`clean test`)
+6. Geracao do report Allure (`allure:report`)
+7. Publicacao de artefatos e JUnit no job
+
+Parametros suportados no Jenkins:
+
+- `BROWSER` (`chromium`, `firefox`, `webkit`)
+- `ATTACH_EVIDENCE` (`true`/`false`)
+- `BASE_URL` (URL alvo dos testes)
+
+Artefatos arquivados no Jenkins:
+
+- `target/allure-results/**`
+- `target/site/allure-maven-plugin/**`
+- `target/artifacts/**`
+
 ## Historico e rastreabilidade no Allure (GitHub Pages)
 
 O projeto preserva o historico entre execucoes copiando a pasta `history` da publicacao anterior antes de gerar o novo report.
