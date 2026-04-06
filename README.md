@@ -220,7 +220,8 @@ No repositorio, configure:
 2. Source: `Deploy from a branch`
 3. Branch: `gh-pages` e pasta `/(root)`
 
-A publicacao ocorre apos pipeline verde em push para `main`/`master`.
+A publicacao no GitHub Pages ocorre em `push`, `workflow_dispatch` e em `pull_request` do mesmo repositorio.
+O job de publicacao usa `if: always()` para consolidar e publicar o report mesmo quando houver falhas parciais na execucao de testes.
 
 ## Troubleshooting rapido
 
