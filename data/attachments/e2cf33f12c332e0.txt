@@ -1,0 +1,34 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - JSHandle@object
+[CONSOLE] warning - [JavaScript Warning: "“agibank.com.br” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - [JavaScript Warning: "Loading failed for the <script> with source “https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1”." {file: "https://blog.agibank.com.br/#" line: 1}]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
