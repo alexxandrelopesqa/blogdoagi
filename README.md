@@ -121,7 +121,7 @@ HEADLESS=false ./mvnw clean test
 | `CI` | ausente local | `true`/ausente | Ajusta comportamento para pipeline |
 | `BASE_URL` | `https://blog.agibank.com.br` | URL valida (http/https) | Permite apontar para ambiente local/staging |
 | `PLAYWRIGHT_BROWSERS_PATH` | cache global do usuario | caminho local | Mantem browsers Playwright dentro do projeto |
-| `ATTACH_EVIDENCE` | `true` local / `false` CI | `true`/`false` | Controla anexos sensiveis (screenshot/video/trace/logs) |
+| `ATTACH_EVIDENCE` | `true` local / `true` CI | `true`/`false` | Controla anexos sensiveis (screenshot/video/trace/logs) |
 
 ## Relatorio Allure
 
@@ -182,29 +182,35 @@ O pipeline executa:
 2. Java 17 + cache Maven
 3. Instalacao de browsers (`./mvnw -B -q exec:java`)
 4. Testes em matriz (`chromium`, `firefox`, `webkit`)
-5. Geracao de Allure (`./mvnw -B allure:report`)
-6. Upload de artefatos:
-   - `allure-report-<browser>`
-7. Deploy no GitHub Pages com artefato de `chromium`
+5. Upload dos resultados brutos (`allure-results-<browser>`)
+6. Job agregador baixa todos os `allure-results-*`, reaproveita `history` da ultima publicacao em `gh-pages` e gera relatorio consolidado
+7. Publica no GitHub Pages:
+   - `latest` na raiz
+   - snapshot por execucao em `runs/<run_number>`
 
 Seguranca aplicada no workflow:
 
 - Actions fixadas por commit SHA (supply-chain hardening)
-- Em `push`/`pull_request`, `ATTACH_EVIDENCE=false` para evitar exposicao de anexos sensiveis
-- Em `workflow_dispatch`, e possivel ativar evidencias com input `attach_evidence=true` (somente `chromium`)
+- Publicacao em PR apenas quando o PR pertence ao mesmo repositório (evita falha de permissao em forks)
 
 ### Evidencias no GitHub Actions
 
-Se quiser gerar anexos no Allure publicado pelo CI:
+As evidencias ficam habilitadas no CI por padrao (`ATTACH_EVIDENCE=true`) para manter rastreabilidade completa no Allure:
 
-1. Abra **Actions > Playwright E2E + Allure > Run workflow**
-2. Selecione `attach_evidence=true`
-3. Dispare a execucao
+- screenshot
+- video
+- trace
+- logs de runtime
 
-Observacoes:
+## Historico e rastreabilidade no Allure (GitHub Pages)
 
-- Evidencias no CI sao habilitadas apenas no `chromium`
-- Em execucoes automáticas (`push`/`pull_request`) as evidencias seguem desativadas por seguranca
+O projeto preserva o historico entre execucoes copiando a pasta `history` da publicacao anterior antes de gerar o novo report.
+
+Com isso, no Allure Pages voce tem:
+
+- **Tendencias historicas** (widgets de trend)
+- **Ultima execucao** na raiz do Pages
+- **Snapshot por execucao** em `runs/<run_number>`
 
 ## GitHub Pages
 
