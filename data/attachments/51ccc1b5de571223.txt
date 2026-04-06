@@ -1,0 +1,45 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-78.png?fit=192%2C192&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-78.png?fit=32%2C32&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "“agibank.com.br” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - [JavaScript Warning: "Loading failed for the <script> with source “https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1”." {file: "https://blog.agibank.com.br/#" line: 1}]
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "createRoot", r is undefined
+TypeError: can't access property "createRoot", r is undefined
+    at 4140 (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:4:56)
+    at n (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:4:225)
+    at  (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:4:4186)
+    at  (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:11:7566)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node

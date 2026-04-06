@@ -1,0 +1,35 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - []
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z -> net::ERR_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - []
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
