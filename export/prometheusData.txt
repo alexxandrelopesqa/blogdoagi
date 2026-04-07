@@ -3,10 +3,10 @@ launch_status_broken 2
 launch_status_passed 0
 launch_status_skipped 0
 launch_status_unknown 0
-launch_time_duration 64835
-launch_time_min_duration 32210
-launch_time_max_duration 32565
-launch_time_sum_duration 64775
+launch_time_duration 64008
+launch_time_min_duration 31235
+launch_time_max_duration 32724
+launch_time_sum_duration 63959
 launch_problems_timeout_/_espera 2
 launch_problems_erro_nao_classificado 2
 launch_problems_elemento_/_locator 2
