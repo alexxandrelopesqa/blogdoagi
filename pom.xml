@@ -8,7 +8,7 @@
     <artifactId>blog-do-agi-web-tests</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Blog do Agi — Testes Web (Playwright)</name>
-    <description>Automação de testes E2E do blog Agibank com Playwright, JUnit 5 e Allure</description>
+    <description>E2E do blog Agibank — Playwright, JUnit 5, Allure</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

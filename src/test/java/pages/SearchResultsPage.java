@@ -7,12 +7,10 @@ import io.qameta.allure.Step;
 
 import java.util.regex.Pattern;
 
-/**
- * Resultados de busca — títulos, cards, mensagem vazia, busca secundária e sidebar.
- */
+/** Página de resultados da busca no blog. */
 public class SearchResultsPage {
 
-    /** Texto exibido pelo tema quando não há posts (cópia atual do WordPress). */
+    /** Mensagem do tema quando não acha post (WordPress). */
     public static final String NO_RESULTS_FULL_TEXT =
             "Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.";
 
@@ -50,9 +48,6 @@ public class SearchResultsPage {
         return noResultsMessage;
     }
 
-    /**
-     * Barra de busca “secundária”: segundo campo {@code s} quando existir; caso contrário o único visível.
-     */
     @Step("Ler barra de busca secundária")
     public Locator secondarySearchBar() {
         var inputs = page.locator("input[name='s']");

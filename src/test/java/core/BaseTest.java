@@ -21,12 +21,7 @@ import java.util.Optional;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Ciclo de vida do Playwright: um browser por suíte, contexto isolado por teste.
- * <p>
- * Headless: variável {@code HEADLESS} ({@code true}/{@code false}). Se ausente,
- * usa headless quando {@code CI} estiver definido (por exemplo, GitHub Actions).
- */
+/** Um browser para a suíte; cada teste ganha contexto e página novos. */
 public abstract class BaseTest {
 
     public static final String BASE_URL = resolveBaseUrl();
@@ -234,9 +229,7 @@ public abstract class BaseTest {
         return raw.replaceAll("[^a-zA-Z0-9._-]", "_");
     }
 
-    /**
-     * Deve ser chamado no bloco {@code finally} do teste para anexar evidências no contexto ativo do Allure.
-     */
+    /** Chame no {@code finally} do teste para anexar evidências no Allure. */
     protected void finalizeEvidenceInTestContext(String displayName) {
         String artifactBaseName = safeTestName(displayName);
         try {

@@ -1,5 +1,4 @@
-# Imagem oficial Playwright Java: JDK, Maven e navegadores pré-instalados.
-# Alinhe a tag à versão do artefato `playwright` no pom.xml (obrigatório pela Microsoft).
+# Tag da imagem = versão do Playwright no pom.xml
 FROM mcr.microsoft.com/playwright/java:v1.58.0-jammy
 
 WORKDIR /app

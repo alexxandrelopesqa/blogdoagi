@@ -7,8 +7,8 @@ pipeline {
   }
 
   parameters {
-    choice(name: 'BROWSER', choices: ['chromium', 'firefox', 'webkit'], description: 'Navegador para execucao')
-    booleanParam(name: 'ATTACH_EVIDENCE', defaultValue: true, description: 'Anexar evidencias no Allure')
+    choice(name: 'BROWSER', choices: ['chromium', 'firefox', 'webkit'], description: 'Navegador')
+    booleanParam(name: 'ATTACH_EVIDENCE', defaultValue: true, description: 'Anexos no Allure')
     string(name: 'BASE_URL', defaultValue: 'https://blog.agibank.com.br', description: 'URL alvo para os testes')
   }
 

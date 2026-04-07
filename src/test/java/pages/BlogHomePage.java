@@ -11,20 +11,14 @@ import java.nio.charset.StandardCharsets;
 
 import static core.BaseTest.BASE_URL;
 
-/**
- * Página inicial do blog — busca (lupa / campo / envio) e botão flutuante (chat).
- */
+/** Home do blog: busca e (se existir) botão flutuante de chat. */
 public class BlogHomePage {
 
     private final Page page;
 
-    /** Campo de busca WordPress padrão ({@code s}). */
     private final Locator searchInput;
-    /** Ícone “lupa” ou alternador de busca em temas responsivos. */
     private final Locator searchToggle;
-    /** Botão de envio dentro do formulário de busca. */
     private final Locator searchSubmit;
-    /** Widget de chat / atendimento fixo (Social Chat e similares). */
     private final Locator floatingChatWidget;
 
     public BlogHomePage(Page page) {
@@ -49,14 +43,22 @@ public class BlogHomePage {
         return this;
     }
 
-    /**
-     * Garante que o campo de busca esteja utilizável (abre overlay se necessário).
-     */
     @Step("Garantir que a busca esteja visível")
     public BlogHomePage ensureSearchVisible() {
-        if (visibleSearchInput().count() == 0) {
-            if (searchToggle.count() > 0) {
-                searchToggle.click();
+        if (visibleSearchInput().count() > 0) {
+            return this;
+        }
+        if (searchToggle.count() == 0) {
+            return this;
+        }
+        try {
+            searchToggle.scrollIntoViewIfNeeded();
+            searchToggle.click();
+        } catch (PlaywrightException ignored) {
+            try {
+                searchToggle.click(new com.microsoft.playwright.Locator.ClickOptions().setForce(true));
+            } catch (PlaywrightException ignoredAgain) {
+                // search() cai na navegação direta ?s= se não houver input visível
             }
         }
         return this;
@@ -81,7 +83,6 @@ public class BlogHomePage {
             try {
                 page.navigate(searchUrl, new Page.NavigateOptions().setWaitUntil(WaitUntilState.DOMCONTENTLOADED));
             } catch (PlaywrightException firstFailure) {
-                // Retry curto para falhas transitórias de navegação (net::ERR_ABORTED).
                 page.waitForTimeout(500);
                 page.navigate(searchUrl, new Page.NavigateOptions().setWaitUntil(WaitUntilState.DOMCONTENTLOADED));
             }
