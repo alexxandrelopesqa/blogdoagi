@@ -1,0 +1,26 @@
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - {reload: yes}
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9BNzs8rSc0r0S/IKU3PzCvWT85PyslPzi7WT8ksLtEvLqnMSdWFieka6iUXF+uUk6grtQKotjgzP6+YLO2JeZm5iSVA7SDd9rm2huaGlkbmZqYGRgCmdkf0 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyNkN0KwjAMRl/IGieM6YX4KLKlcdb1jyZ17O0t0yG7GHiZ5Hwfh4xRYfBCXsBlFW3ujWcYIwbHD3iSxBaH24u8DgnaLMG1IgaXiyqhGQZOCF02Vn/CqrMBBy7lmhTLZGlrv0fm3fjTWBxsO4Usqk9Gwwo0Hm3WxFBm0IYFSm8MvoT5Szrjt+mY6E6JPNJf+CysSBspH1jxV3epmqauT9X5eHgD3dp8gg== -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/gosign-posts-slider-block/src/block/slick/slick.css -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=66c613f68580994bb00a -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/gosign-posts-slider-block/src/block/slick/slick-theme.css -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] warning - The resource https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it wasn't preloaded for nothing.
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
