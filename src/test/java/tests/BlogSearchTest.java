@@ -10,6 +10,7 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import io.qameta.allure.TmsLink;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.BlogHomePage;
 import pages.SearchResultsPage;
@@ -20,6 +21,8 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 @Epic("Busca no Blog")
 @Feature("Busca no Blog do Agi")
+@Tag("smoke")
+@Tag("regression")
 class BlogSearchTest extends BaseTest {
 
     @Test

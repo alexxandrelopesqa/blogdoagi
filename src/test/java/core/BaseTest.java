@@ -3,6 +3,7 @@ package core;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.PlaywrightException;
 import io.qameta.allure.Allure;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -255,8 +256,21 @@ public abstract class BaseTest {
         if (page == null) {
             return;
         }
-        byte[] screenshot = page.screenshot(new com.microsoft.playwright.Page.ScreenshotOptions().setFullPage(true));
-        Allure.addAttachment(name, "image/png", new ByteArrayInputStream(screenshot), "png");
+        try {
+            byte[] screenshot = page.screenshot(new com.microsoft.playwright.Page.ScreenshotOptions()
+                    .setFullPage(true)
+                    .setTimeout(12_000));
+            Allure.addAttachment(name, "image/png", new ByteArrayInputStream(screenshot), "png");
+        } catch (PlaywrightException fullPageFailed) {
+            try {
+                byte[] screenshot = page.screenshot(new com.microsoft.playwright.Page.ScreenshotOptions()
+                        .setFullPage(false)
+                        .setTimeout(8_000));
+                Allure.addAttachment(name + "-viewport", "image/png", new ByteArrayInputStream(screenshot), "png");
+            } catch (PlaywrightException ignored) {
+                // Páginas AMP/Web Story podem impedir captura; não falha o teardown.
+            }
+        }
     }
 
     private void attachRuntimeLogs(String name) {

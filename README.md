@@ -14,6 +14,8 @@ cd blogdoagi
 ./mvnw allure:report
 ```
 
+**Grupos JUnit:** `./mvnw -Psmoke test` (rápido: home + busca) ou `./mvnw -Pregression test` (tudo com tag `regression`, incluindo responsividade e templates). URLs canônicas de regressão ficam em `src/test/resources/regression.properties`.
+
 Relatório HTML: `target/site/allure-maven-plugin/index.html`.  
 Se o navegador ficar só em “Loading…”, suba um servidor HTTP na pasta do relatório (ex.: `py -m http.server 5050`) e abra `http://localhost:5050`.
 
@@ -21,10 +23,12 @@ No Windows PowerShell use `.\mvnw.cmd` no lugar de `./mvnw`.
 
 ## O que os testes fazem
 
-1. Busca por **Investimentos** — confere URL com `?s=`, título de resultados e card de artigo.  
-2. Busca por termo que **não existe** — confere URL, mensagem padrão do WordPress, barra de busca e sidebar ou widget de chat.
+1. **Smoke** — home com título e `main` visível (`BlogSmokeTest`).  
+2. **Busca** — resultado com **Investimentos** e cenário sem resultado (`BlogSearchTest`).  
+3. **Responsividade** — vários viewports + busca (`BlogResponsiveLayoutTest`).  
+4. **Regressão** — categoria, posts canônicos, `/page/2/`, Web Stories, HTTP 404 em slug inventado (`BlogRegressionTest`).
 
-Page Objects em `pages/`, setup do browser em `core/BaseTest.java`, cenários em `tests/BlogSearchTest.java`.
+Page Objects em `pages/`, URLs de regressão via `core/RegressionPaths.java`, setup em `core/BaseTest.java`.
 
 ## Variáveis de ambiente (úteis)
 

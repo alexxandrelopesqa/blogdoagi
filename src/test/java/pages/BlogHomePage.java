@@ -3,6 +3,7 @@ package pages;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.PlaywrightException;
+import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.WaitUntilState;
 import io.qameta.allure.Step;
 
@@ -38,8 +39,16 @@ public class BlogHomePage {
 
     @Step("Acessar a home do Blog do Agi")
     public BlogHomePage navigate() {
-        page.navigate(BASE_URL);
-        page.waitForLoadState();
+        Page.NavigateOptions opts = new Page.NavigateOptions()
+                .setWaitUntil(WaitUntilState.DOMCONTENTLOADED)
+                .setTimeout(60_000);
+        try {
+            page.navigate(BASE_URL, opts);
+        } catch (PlaywrightException first) {
+            page.waitForTimeout(800);
+            page.navigate(BASE_URL, opts);
+        }
+        page.waitForLoadState(LoadState.DOMCONTENTLOADED, new Page.WaitForLoadStateOptions().setTimeout(25_000));
         return this;
     }
 

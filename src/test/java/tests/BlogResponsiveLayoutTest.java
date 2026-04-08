@@ -10,9 +10,13 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+
+import com.microsoft.playwright.PlaywrightException;
+import com.microsoft.playwright.options.LoadState;
 import pages.BlogHomePage;
 
 import java.util.regex.Pattern;
@@ -22,6 +26,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 @Epic("Layout")
 @Feature("Responsividade")
+@Tag("regression")
 class BlogResponsiveLayoutTest extends BaseTest {
 
     /** Larguras comuns: mobile, tablet, laptop e desktop (altura típica por faixa). */
@@ -56,9 +61,7 @@ class BlogResponsiveLayoutTest extends BaseTest {
 
             Allure.step("Largura do documento vs viewport (estrita ≤1024px; desktop ignora micro-overflow do tema)");
             if (width <= 1024) {
-                Object overflowCheck = page.evaluate(
-                        "() => { const iw = window.innerWidth; const sw = document.documentElement.scrollWidth; "
-                                + "return sw <= iw + 24; }");
+                Object overflowCheck = overflowSemCorridaComNavegacao();
                 Assertions.assertTrue(
                         Boolean.TRUE.equals(overflowCheck),
                         "Possível overflow horizontal em " + label + " (" + width + "×" + height + ")");
@@ -70,5 +73,26 @@ class BlogResponsiveLayoutTest extends BaseTest {
         } finally {
             finalizeEvidenceInTestContext("responsive-" + label);
         }
+    }
+
+    /**
+     * Evita falha intermitente quando scripts do site navegam durante {@code evaluate} (contexto destruído).
+     */
+    private Object overflowSemCorridaComNavegacao() {
+        String script =
+                "() => { const iw = window.innerWidth; const sw = document.documentElement.scrollWidth; "
+                        + "return sw <= iw + 24; }";
+        for (int tentativa = 0; tentativa < 3; tentativa++) {
+            try {
+                page.waitForLoadState(LoadState.DOMCONTENTLOADED);
+                return page.evaluate(script);
+            } catch (PlaywrightException e) {
+                if (tentativa == 2 || !e.getMessage().contains("Execution context was destroyed")) {
+                    throw e;
+                }
+                page.waitForTimeout(400);
+            }
+        }
+        return false;
     }
 }
