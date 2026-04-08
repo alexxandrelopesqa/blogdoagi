@@ -123,3 +123,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .pages
           keep_files: true
+          commit_message: "publicação: relatório Allure (execução ${{ github.run_number }})"
