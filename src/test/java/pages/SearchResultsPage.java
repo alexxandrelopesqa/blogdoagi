@@ -50,8 +50,6 @@ public class SearchResultsPage {
 
     @Step("Ler barra de busca secundária")
     public Locator secondarySearchBar() {
-        // Só inputs visíveis: o tema pode duplicar o campo no DOM (ex.: header + sidebar)
-        // com um dos nós oculto — nth(1) sobre todos falhava com "unexpected value hidden".
         Locator visible = page.locator("input[name='s']:visible");
         int n = visible.count();
         if (n > 1) {
