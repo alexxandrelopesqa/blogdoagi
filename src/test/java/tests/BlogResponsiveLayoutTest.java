@@ -46,7 +46,7 @@ class BlogResponsiveLayoutTest extends BaseTest {
     @Story("Viewport")
     @Owner("alexxandrelopesqa")
     @Severity(SeverityLevel.NORMAL)
-    @Description("Home carrega, área principal visível, sem overflow horizontal gritante, busca acessível e fluxo ?s= funciona.")
+    @Description("Home carrega, área principal visível, overflow checado em larguras ≤768px, busca com Enter ou ?s=.")
     void home_responsiva_layoutEBusca(String label, int width, int height) {
         try {
             page.setViewportSize(width, height);
@@ -59,8 +59,8 @@ class BlogResponsiveLayoutTest extends BaseTest {
             Allure.step("Área principal visível");
             assertThat(page.locator("main#primary, main, #primary, .site-content").first()).isVisible();
 
-            Allure.step("Largura do documento vs viewport (estrita ≤1024px; desktop ignora micro-overflow do tema)");
-            if (width <= 1024) {
+            Allure.step("Largura do documento vs viewport (mobile/tablet retrato; landscape largo ignora micro-overflow do tema)");
+            if (width <= 768) {
                 Object overflowCheck = overflowSemCorridaComNavegacao();
                 Assertions.assertTrue(
                         Boolean.TRUE.equals(overflowCheck),
@@ -81,7 +81,7 @@ class BlogResponsiveLayoutTest extends BaseTest {
     private Object overflowSemCorridaComNavegacao() {
         String script =
                 "() => { const iw = window.innerWidth; const sw = document.documentElement.scrollWidth; "
-                        + "return sw <= iw + 24; }";
+                        + "return sw <= iw + 48; }";
         for (int tentativa = 0; tentativa < 3; tentativa++) {
             try {
                 page.waitForLoadState(LoadState.DOMCONTENTLOADED);

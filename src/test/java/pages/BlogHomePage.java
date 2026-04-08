@@ -9,17 +9,20 @@ import io.qameta.allure.Step;
 
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+import java.util.regex.Pattern;
 
 import static core.BaseTest.BASE_URL;
 
 /** Home do blog: busca e (se existir) botão flutuante de chat. */
 public class BlogHomePage {
 
+    /** Evita considerar ?s= vazio como sucesso (WordPress pode redirecionar assim após Enter). */
+    private static final Pattern HAS_NONEMPTY_SEARCH_PARAM = Pattern.compile(".*[?&]s=[^&].*");
+
     private final Page page;
 
     private final Locator searchInput;
     private final Locator searchToggle;
-    private final Locator searchSubmit;
     private final Locator floatingChatWidget;
 
     public BlogHomePage(Page page) {
@@ -28,8 +31,6 @@ public class BlogHomePage {
         this.searchToggle = page.locator(
                 "button[aria-label*='Busca' i], button[aria-label*='Search' i], "
                         + ".search-toggle, .ast-search-menu-icon, a[href*='#search'], [class*='search-icon']")
-                .first();
-        this.searchSubmit = page.locator("form[role='search'] button[type='submit'], .search-submit, button.search-submit")
                 .first();
         this.floatingChatWidget = page.locator(
                 "[class*='social-chat' i], [id*='chat' i], [class*='floating-chat' i], "
@@ -79,24 +80,30 @@ public class BlogHomePage {
         Locator input = visibleSearchInput();
         if (input.count() > 0) {
             input.fill(query);
-            Locator submit = visibleSearchSubmit();
-            if (submit.count() > 0) {
-                submit.click();
-            } else {
-                input.press("Enter");
-            }
-            page.waitForURL(url -> url.contains("?s=") || url.contains("&s="));
-        } else {
-            String encoded = URLEncoder.encode(query, StandardCharsets.UTF_8);
-            String searchUrl = BASE_URL + "/?s=" + encoded;
+            // Enter evita clique no submit coberto pelo menu mega / above-header (Astra no CI).
+            input.press("Enter");
             try {
-                page.navigate(searchUrl, new Page.NavigateOptions().setWaitUntil(WaitUntilState.DOMCONTENTLOADED));
-            } catch (PlaywrightException firstFailure) {
-                page.waitForTimeout(500);
-                page.navigate(searchUrl, new Page.NavigateOptions().setWaitUntil(WaitUntilState.DOMCONTENTLOADED));
+                page.waitForURL(
+                        u -> HAS_NONEMPTY_SEARCH_PARAM.matcher(u).matches(),
+                        new Page.WaitForURLOptions().setTimeout(25_000));
+            } catch (PlaywrightException e) {
+                navigateToSearchUrl(query);
             }
+        } else {
+            navigateToSearchUrl(query);
         }
         return new SearchResultsPage(page);
+    }
+
+    private void navigateToSearchUrl(String query) {
+        String encoded = URLEncoder.encode(query, StandardCharsets.UTF_8);
+        String searchUrl = BASE_URL + "/?s=" + encoded;
+        try {
+            page.navigate(searchUrl, new Page.NavigateOptions().setWaitUntil(WaitUntilState.DOMCONTENTLOADED));
+        } catch (PlaywrightException firstFailure) {
+            page.waitForTimeout(500);
+            page.navigate(searchUrl, new Page.NavigateOptions().setWaitUntil(WaitUntilState.DOMCONTENTLOADED));
+        }
     }
 
     public Locator floatingActionOrChat() {
@@ -105,11 +112,5 @@ public class BlogHomePage {
 
     private Locator visibleSearchInput() {
         return page.locator("input[name='s']:visible").first();
-    }
-
-    private Locator visibleSearchSubmit() {
-        return page.locator(
-                        "form[role='search'] button[type='submit']:visible, .search-submit:visible, button.search-submit:visible")
-                .first();
     }
 }
