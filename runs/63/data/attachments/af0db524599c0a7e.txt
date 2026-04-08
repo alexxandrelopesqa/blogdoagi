@@ -1,0 +1,15 @@
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - []
+[CONSOLE] warning - The resource https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJydksFuwyAMhl9ojDRd1vYw7VEmB5zUKQGEnUbb04+ki5RDK2W9cDB8n/EPY1QmeEEvWs7YI2tgSZBXRmHdse7JU0NodZPmg/Y1V147fhm3o46uqBghmfMTNAuZy7dislhDuiOIbmjJszahdsFcWFtimRRLQYGnHoTCZvKaBw2JtZDPnUeKmP7ddGJvqMqjCIGjn4eaefo8o+QkyJscWa2DrwMkS75dYpl7CPbRgaCKCa+Eo+7hYSQc0UzimMIqWhdCVPVAzj68z+BkigwVWBs8qyYk1Q75SI2pXakEaocqNIuA77zPEF0Am53Qqpt/EZRlURRzvWNV7k779+3omnwrys3gfg1Wh+rZyx6Ph6fR3fFB7B1KBHPRX9MfmF9IG0hhYHTLnloKf0l/9h+7w6Gqiv3xVP4Cf4Fo/w== -> net::ERR_QUIC_PROTOCOL_ERROR
+[CONSOLE] error - Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe6471v9131128777za200zd9131128777&_p=1775687530480&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGA&are=1&cid=1984429537.1775687531&frm=0&pscdl=noapi&sr=375x667&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938468~117266402~117384406~118131810~118442251&sid=1775687530&sct=1&seg=0&dl=https%3A%2F%2Fblog.agibank.com.br%2F%3Fs%3DAgi&dt=Agi%20-%20Blog%20do%20Agi&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=447 -> net::ERR_ABORTED

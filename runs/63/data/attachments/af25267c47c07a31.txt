@@ -1,0 +1,80 @@
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - []
+[CONSOLE] warning - The resource https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJylkUFuwjAQRS9UdxyHYHdRsUHiABygMvYochlsK2Mryu0boFFFFy2lyz+j92ekN2bhUiwYC2SqfYgMLh0ouSNDiI6qR4YtZoweowtz2KWt9X6CfZlojocayAPZglyeHfPT+NVYMyXrGartxbUdLDMWBqWklJf5jAjVvLTrP8A37Eqq+9H2Bu109/jLxuiHYSXb5h+XG/MdXty9Y8nWHeFtdgefGnkMGYffiFPy9ezT2SFVRloWYhncW1ACoRe9JcJh+imdCzen10brbm30qjMfQzXq3Q== -> net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: net::ERR_CONNECTION_CLOSED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/mu-plugins/wpcomsh/jetpack_vendor/automattic/jetpack-newsletter/build/reader-link.css -> net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: net::ERR_CONNECTION_CLOSED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/uploads/astra-addon/astra-addon-69d6d617928753-76477403.css?m=1775687191 -> net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1 -> net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: net::ERR_CONNECTION_CLOSED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo= -> net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: net::ERR_CONNECTION_CLOSED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1 -> net::ERR_CONNECTION_CLOSED
+[CONSOLE] error - Failed to load resource: net::ERR_CONNECTION_CLOSED
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'createRoot')
+TypeError: Cannot read properties of undefined (reading 'createRoot')
+    at 4140 (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:4:62)
+    at n (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:4:225)
+    at https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:4:4185
+    at https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:11:7566
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'defaultHooks')
+TypeError: Cannot read properties of undefined (reading 'defaultHooks')
+    at https://blog.agibank.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375:2:5007
+    at https://blog.agibank.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375:2:5277
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+    at wp-i18n-js-after:2:9
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+    at wp-keycodes-js-translations:5:10
+    at wp-keycodes-js-translations:6:4
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'useLayoutEffect')
+TypeError: Cannot read properties of undefined (reading 'useLayoutEffect')
+    at https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA==:11:21621
+    at https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA==:11:31414
+    at https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA==:11:31454
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading '__dangerousOptInToUnstableAPIsOnlyForCoreModules')
+TypeError: Cannot read properties of undefined (reading '__dangerousOptInToUnstableAPIsOnlyForCoreModules')
+    at https://blog.agibank.com.br/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318:2:8851
+    at https://blog.agibank.com.br/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318:9:4397
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'use')
+TypeError: Cannot read properties of undefined (reading 'use')
+    at wp-data-js-after:6:4
+    at wp-data-js-after:7:4
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+    at wp-a11y-js-translations:5:10
+    at wp-a11y-js-translations:6:4
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+    at wp-rich-text-js-translations:5:10
+    at wp-rich-text-js-translations:6:4
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'combineReducers')
+TypeError: Cannot read properties of undefined (reading 'combineReducers')
+    at https://blog.agibank.com.br/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645:2:1229
+    at https://blog.agibank.com.br/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645:2:37258
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+TypeError: Cannot read properties of undefined (reading 'setLocaleData')
+    at wp-blocks-js-translations:5:10
+    at wp-blocks-js-translations:6:4
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading '__dangerousOptInToUnstableAPIsOnlyForCoreModules')
+TypeError: Cannot read properties of undefined (reading '__dangerousOptInToUnstableAPIsOnlyForCoreModules')
+    at https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88:12:22380
+    at https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88:19:57424
+    at https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88:19:57463
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[PAGE_ERROR] TypeError: Cannot read properties of undefined (reading '__')
+TypeError: Cannot read properties of undefined (reading '__')
+    at https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:1829
+    at HTMLDocument.s (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:2083)
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe6471v9131128777za200zd9131128777&_p=1775687595925&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGA&are=1&cid=82113679.1775687596&frm=0&pscdl=noapi&sr=768x1024&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938465~115938468&sid=1775687596&sct=1&seg=0&dl=https%3A%2F%2Fblog.agibank.com.br%2F%3Fs%3DAgi&dt=Agi%20-%20Blog%20do%20Agi&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=461 -> net::ERR_ABORTED
