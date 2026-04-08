@@ -1,0 +1,78 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - []
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe6461v9131128777za200zd9131128777&_p=1775640852910&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGA&are=1&cid=1940058313.1775640853&frm=0&pscdl=noapi&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~116991817~117266400&sid=1775640852&sct=1&seg=0&dl=https%3A%2F%2Fblog.agibank.com.br%2F&dt=Agi%20Blog%20%7C%20Tudo%20sobre%20empr%C3%A9stimo%20e%20educa%C3%A7%C3%A3o%20financeira&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1082 -> net::ERR_ABORTED
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - Unrecognized feature: 'web-share'.
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+[CONSOLE] warning - An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+[CONSOLE] warning - An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] warning - An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/o-que-acontece-com-quem-nao-votar/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+[PAGE_ERROR] Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+    at o (https://cdn.ampproject.org/v0.mjs:2:965)
+    at Et.createError (https://cdn.ampproject.org/v0.mjs:2:204103)
+    at https://cdn.ampproject.org/v0.mjs:2:32965
+    at https://cdn.ampproject.org/v0.mjs:2:32983
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+[REQUEST_FAILED] POST https://q.clarity.ms/collect -> net::ERR_ABORTED
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe6461v9131128777za200zd9131128777&_p=1775640852910&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGQ&are=1&cid=1940058313.1775640853&frm=0&pscdl=noapi&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~116991817~117266400&sid=1775640852&sct=1&seg=0&dl=https%3A%2F%2Fblog.agibank.com.br%2F&dt=Agi%20Blog%20%7C%20Tudo%20sobre%20empr%C3%A9stimo%20e%20educa%C3%A7%C3%A3o%20financeira&en=user_engagement&_et=1079&tfd=2163 -> net::ERR_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] log - []
