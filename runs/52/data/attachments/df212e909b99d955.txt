@@ -1,0 +1,20 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJxdjdEOwiAMRX/IreEBFx+Mn2JYh1IF1tAS4t9LFs2ib23v6bmNB1yz+qzAsd4pCzy8ssMnXCkjzJXiAlJnwUKstHbgZxsT5RFFDm03afDJCzjR4gYMm0Ff0f9z38Z+asGpOO5ZHz6tt7JxC/S3XXBJZzNN1pysNcc32i5ICw== -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/web-stories/page/2/ -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-content/plugins/gosign-posts-slider-block/dist/blocks.style.build.css,wp-content/plugins/spectra-pro/dist/style-blocks.css?m=1773424344 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyNzUsKg0AMgOEL1Qbpw25KN0IP4AHKmASZGmcGk0G8fRXqqtB2+Sfky5QKjME4GCTJnQ8KGFuJ2Cv4gJKJFWpOHIgD+iXusXZEMzQ2y5Jt9kIgzlhtj6q76VN8siWHPTwWEd64Tj7x+OtiiJTXL+jGmJVlWxTb4F/AvDAVnRPhcf5WK3gbrmVVlZfjoTqdX3rzbdM= -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9BNzs8rSc0r0S/IKU3PzCvWT85PyslPzi7WT8ksLtEvLqnMSdWFieka6iUXF+uUk6grtQKotjgzP6+YLO2JeZm5iSVA7SDd9rm2huaGlkbmZqYGRgCmdkf0 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9DNzEvOKU1JLdbPKtbPTU3JTEzNSc1NzStB4RTkJFamFunmpKYnJlfq5Wbm6SUXF+uU49ENlEPmw/TY59oamhkYGluamFuYAQAJTC6K -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/?custom-css=2f3956e634 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "“agibank.com.br” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[REQUEST_FAILED] GET https://blog.agibank.com.br/web-stories/page/2/ -> NS_BINDING_ABORTED
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/
