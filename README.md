@@ -35,7 +35,7 @@ Page Objects em `pages/`, URLs de regressão via `core/RegressionPaths.java`, se
 - **Alvo:** Os testes são E2E no URL de `BASE_URL` (por padrão o blog em produção). Se o site estiver em baixo, lento ou em manutenção, a suíte pode falhar sem indicação de bug no código de teste.
 - **Dados canónicos:** Caminhos em `src/test/resources/regression.properties` (categoria, artigos como `/cdb/` e `/cdi/`, slug de 404) têm de ser revistos quando o conteúdo ou os permalinks do WordPress mudarem.
 - **Escopo:** Foco em busca, páginas de arquivo/post/Web Stories e alguns viewports. Não cobre API backend, acessibilidade sistemática (axe), performance (Core Web Vitals) nem dispositivos reais — isso seria camada extra.
-- **CI:** O workflow corre **Chromium, Firefox e WebKit** em paralelo (três jobs); o tempo total depende do GitHub Actions e da rede até ao blog.
+- **CI:** O workflow corre **Chromium, Firefox e WebKit** em paralelo (três jobs); o tempo total depende do GitHub Actions e da rede até ao blog. Também corre **diariamente às 20:00** (horário de Brasília) via agendamento no GitHub Actions.
 
 ## Variáveis de ambiente (úteis)
 
@@ -59,6 +59,7 @@ A imagem usa a base oficial Playwright Java (mesma linha de versão do `pom.xml`
 ## GitHub Actions e Pages
 
 O workflow está em `.github/workflows/playwright.yml`: roda os três browsers, sobe os `allure-results` por browser, junta tudo num job que gera o relatório e publica no **GitHub Pages** (branch `gh-pages`).  
+Dispara em `push` e `pull_request` para `main`/`master`, execução manual (`workflow_dispatch`) e **cron diário** (`0 23 * * *` UTC ≈ **20:00 horário de Brasília**). O agendamento usa UTC; se o fuso do Brasil mudar, ajuste o cron no workflow.  
 O relatório mais recente fica na raiz do site; cada execução também fica em `runs/<número_do_run>/`.  
 O Allure reaproveita a pasta `history` da publicação anterior para manter gráficos de tendência.
 
