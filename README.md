@@ -30,6 +30,13 @@ No Windows PowerShell use `.\mvnw.cmd` no lugar de `./mvnw`.
 
 Page Objects em `pages/`, URLs de regressão via `core/RegressionPaths.java`, setup em `core/BaseTest.java`.
 
+## Premissas e manutenção
+
+- **Alvo:** Os testes são E2E no URL de `BASE_URL` (por padrão o blog em produção). Se o site estiver em baixo, lento ou em manutenção, a suíte pode falhar sem indicação de bug no código de teste.
+- **Dados canónicos:** Caminhos em `src/test/resources/regression.properties` (categoria, artigos como `/cdb/` e `/cdi/`, slug de 404) têm de ser revistos quando o conteúdo ou os permalinks do WordPress mudarem.
+- **Escopo:** Foco em busca, páginas de arquivo/post/Web Stories e alguns viewports. Não cobre API backend, acessibilidade sistemática (axe), performance (Core Web Vitals) nem dispositivos reais — isso seria camada extra.
+- **CI:** O workflow corre **Chromium, Firefox e WebKit** em paralelo (três jobs); o tempo total depende do GitHub Actions e da rede até ao blog.
+
 ## Variáveis de ambiente (úteis)
 
 | Variável | O que faz |
