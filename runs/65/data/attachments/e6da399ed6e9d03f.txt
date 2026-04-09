@@ -1,0 +1,11 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=66c613f68580994bb00a -> NS_ERROR_NET_PARTIAL_TRANSFER
+[REQUEST_FAILED] POST https://blog.agibank.com.br/wp-content/plugins/litespeed-cache/guest.vary.php -> NS_ERROR_NET_RESET
+[PAGE_ERROR] TypeError: NetworkError when attempting to fetch resource.
+TypeError: NetworkError when attempting to fetch resource.
+
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
