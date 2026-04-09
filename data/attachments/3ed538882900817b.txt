@@ -1,0 +1,193 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-78.png?fit=32%2C32&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-78.png?fit=192%2C192&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-75-1.png?resize=160%2C53&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2026/04/Artigo-3.png?w=700&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/astra-local-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2 -> NS_BINDING_ABORTED
+[CONSOLE] error - [JavaScript Error: "downloadable font: download failed (font-family: "Montserrat" style:normal weight:400 stretch:100 src index:0): status=2152398850 source: https://blog.agibank.com.br/wp-content/astra-local-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"]
+[CONSOLE] warning - [JavaScript Warning: "“agibank.com.br” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - [JavaScript Warning: "Loading failed for the <script> with source “https://blog.agibank.com.br/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1”." {file: "https://blog.agibank.com.br/" line: 1}]
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] ReferenceError: React is not defined
+ReferenceError: React is not defined
+    at 594 (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:614)
+    at t (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:761)
+    at 20 (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:47)
+    at t (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:761)
+    at 848 (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:655)
+    at t (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:761)
+    at  (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:787)
+    at  (https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo=:2:819)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED", n is undefined
+TypeError: can't access property "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED", n is undefined
+    at n (https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1:10:102767)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1:10:128668)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1:10:128703)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "createContext", o is undefined
+TypeError: can't access property "createContext", o is undefined
+    at  (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:11:1270)
+    at  (https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z:11:7566)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "defaultHooks", _ is undefined
+TypeError: can't access property "defaultHooks", _ is undefined
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375:2:5005)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375:2:5277)
+[PAGE_ERROR] TypeError: can't access property "setLocaleData", wp.i18n is undefined
+TypeError: can't access property "setLocaleData", wp.i18n is undefined
+    at  (blob:https://blog.agibank.com.br/244f51d3-f418-4b8b-ace2-88f1a83c0261:1:1)
+[PAGE_ERROR] TypeError: can't access property "setLocaleData", wp.i18n is undefined
+TypeError: can't access property "setLocaleData", wp.i18n is undefined
+    at  (blob:https://blog.agibank.com.br/9feb09b2-e86e-4681-959c-437f22028935:1:144)
+    at  (blob:https://blog.agibank.com.br/9feb09b2-e86e-4681-959c-437f22028935:1:186)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "useLayoutEffect", E is undefined
+TypeError: can't access property "useLayoutEffect", E is undefined
+    at  (https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA==:11:21605)
+    at  (https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA==:11:31414)
+    at  (https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA==:11:31454)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "__dangerousOptInToUnstableAPIsOnlyForCoreModules", j is undefined
+TypeError: can't access property "__dangerousOptInToUnstableAPIsOnlyForCoreModules", j is undefined
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318:2:8849)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318:9:4397)
+[PAGE_ERROR] TypeError: can't access property "use", wp.data is undefined
+TypeError: can't access property "use", wp.data is undefined
+    at  (blob:https://blog.agibank.com.br/42b97af4-87c8-4b70-8340-b1920df58771:1:64)
+    at  (blob:https://blog.agibank.com.br/42b97af4-87c8-4b70-8340-b1920df58771:1:130)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "setLocaleData", wp.i18n is undefined
+TypeError: can't access property "setLocaleData", wp.i18n is undefined
+    at  (blob:https://blog.agibank.com.br/9c9734c1-4cc7-4717-925c-fb4a012b8ce5:1:144)
+    at  (blob:https://blog.agibank.com.br/9c9734c1-4cc7-4717-925c-fb4a012b8ce5:1:186)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "__", a is undefined
+TypeError: can't access property "__", a is undefined
+    at s/< (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:1827)
+    at s (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:2083)
+    at d (https://blog.agibank.com.br/_static/??wp-includes/js/dist/html-entities.min.js,wp-includes/js/dist/dom-ready.min.js?m=1761030842:4:346)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:2136)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:2174)
+[PAGE_ERROR] TypeError: can't access property "setLocaleData", wp.i18n is undefined
+TypeError: can't access property "setLocaleData", wp.i18n is undefined
+    at  (blob:https://blog.agibank.com.br/b1a61672-690c-4432-9740-3ae556802ccb:1:144)
+    at  (blob:https://blog.agibank.com.br/b1a61672-690c-4432-9740-3ae556802ccb:1:186)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "combineReducers", o is undefined
+TypeError: can't access property "combineReducers", o is undefined
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645:2:1227)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645:2:37258)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "setLocaleData", wp.i18n is undefined
+TypeError: can't access property "setLocaleData", wp.i18n is undefined
+    at  (blob:https://blog.agibank.com.br/acf094a9-d017-4a0f-b8ad-f2cf7cb6fb3c:1:144)
+    at  (blob:https://blog.agibank.com.br/acf094a9-d017-4a0f-b8ad-f2cf7cb6fb3c:1:186)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[PAGE_ERROR] TypeError: can't access property "__dangerousOptInToUnstableAPIsOnlyForCoreModules", ae is undefined
+TypeError: can't access property "__dangerousOptInToUnstableAPIsOnlyForCoreModules", ae is undefined
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88:12:22377)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88:19:57424)
+    at  (https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88:19:57463)
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] error - [JavaScript Error: "Cookie “_clck” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-top-navigation and allow-top-navigation-by-user-activation for its sandbox attribute will permit top navigations." {file: "about:blank" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can remove its sandboxing." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-top-navigation and allow-top-navigation-by-user-activation for its sandbox attribute will permit top navigations." {file: "about:blank" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can remove its sandboxing." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe" line: 0}]
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "debugger eval code" line: 383}]
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/uploads/2026/03/1-576x1024.png -> NS_BINDING_ABORTED
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=xyz123_nonexistent_search" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/?s=xyz123_nonexistent_search" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=xyz123_nonexistent_search" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=xyz123_nonexistent_search" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_clsk” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=xyz123_nonexistent_search" line: 0}]
