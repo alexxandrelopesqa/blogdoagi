@@ -1,0 +1,40 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2026/04/Artigo-1-2.png?w=700&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2026/03/cropped-Artigo-93.png?w=640&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/09/cropped-Onur-Binay-Unsplash_Easy-Resize.com_.jpg?w=640&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/10/cropped-shutterstock_2204473401_Easy-Resize.com_.jpg?w=640&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "debugger eval code" line: 383}]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] warning - [JavaScript Warning: "The resource at “https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/02/AppStore-imageAppstore-AGI.png?resize=150%2C46&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/02/Gplay-imageGoogleplay-agi.png?resize=150%2C61&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[CONSOLE] warning - [JavaScript Warning: "Loading failed for the <script> with source “https://blog.agibank.com.br/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1”." {file: "https://blog.agibank.com.br/" line: 1}]
+[REQUEST_FAILED] POST https://pixel.wp.com/boom.gif?bilmur=1&batcache_hit=1&provider=wordpress.com&service=atomic&site_tz=America%2FSao_Paulo&custom_props=%7B%22woo_active%22%3A%220%22%2C%22logged_in%22%3A%220%22%2C%22wptheme%22%3A%22astra%22%2C%22wptheme_is_block%22%3A%220%22%7D&site_host=blog.agibank.com.br&site_path=%2F&full_path=%2F&version=4.4.0&edge_dc=dfw&edge_status=HIT&edge_dur=1&nt=2--2c_2c___1_7_b_b_1e_t_1f_1y_3b_2b_4z_8d_8e_91_91_92--_0__--h2&reporter=sendBeacon&fcp=193&fcp_raw=193&lcp=282&lcp_load=lazy&lcp_raw=282&lcp_sel=div.web-stories-list__story%3Ediv.web-stories-list__story-poster%3Ea%3Eimg&lcp_type=img&lcp_res=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODUiIGhlaWdodD0iMzA4IiB2aWV3Qm94PSIwIDAgMTg1IDMwOCI%2BPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4%3D&ttfb=70&nav_type=reload&inp=8 -> NS_ERROR_NET_RESET
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "debugger eval code" line: 383}]
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_clck” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
