@@ -1,0 +1,38 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-75-1.png?resize=160%2C53&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/o-que-acontece-com-quem-nao-votar/
+[REQUEST_FAILED] GET https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png?fit=150%2C105&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg?fit=1024%2C682&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png?fit=150%2C105&ssl=1" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg?fit=1024%2C682&ssl=1" line: 0}]
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+[CONSOLE] error - [BACKGROUND-BLUR] Failed to load the amp-img or amp-video.
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+[PAGE_ERROR] Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+
+[REQUEST_FAILED] GET https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg?fit=1024%2C682&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg?fit=1024%2C577&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg?fit=1024%2C682&ssl=1" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://i0.wp.com/blogdoagi.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg?fit=1024%2C577&ssl=1" line: 0}]
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+[PAGE_ERROR] Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
+Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
+
+[PAGE_ERROR] Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+
