@@ -1,0 +1,42 @@
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - {reload: yes}
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/o-que-acontece-com-quem-nao-votar/
+[CONSOLE] info - Successfully preconnected to https://blog.agibank.com.br/
+[CONSOLE] info - Successfully preconnected to https://images.unsplash.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+[CONSOLE] error - [BACKGROUND-BLUR] Failed to load the amp-img or amp-video.
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[PAGE_ERROR] Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+    at unknown (https://cdn.ampproject.org/v0.mjs:2:974)
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
+[PAGE_ERROR] Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+    at unknown (https://cdn.ampproject.org/v0.mjs:2:974)
+[PAGE_ERROR] Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
+Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
+    at unknown (https://cdn.ampproject.org/v0.mjs:2:974)
