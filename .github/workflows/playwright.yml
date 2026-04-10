@@ -7,10 +7,8 @@ on:
     branches: [main, master]
   workflow_dispatch:
   schedule:
-    # 08:00, 12:00 e 18:00 America/Sao_Paulo (UTC−3) → 11:00, 15:00 e 21:00 UTC
-    - cron: "0 11 * * *"
-    - cron: "0 15 * * *"
-    - cron: "0 21 * * *"
+    # 08:00, 12:00 e 18:00 em Brasília/Recife (UTC-3)
+    - cron: "0 11,15,21 * * *"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
