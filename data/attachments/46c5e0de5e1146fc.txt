@@ -1,0 +1,28 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - JSHandle@object
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-78.png?fit=32%2C32&ssl=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-78.png?fit=192%2C192&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/cdi/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/cdi/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/cdi/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/cdi/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_clck” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/cdi/" line: 0}]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load

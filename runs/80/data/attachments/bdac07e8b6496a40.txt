@@ -1,0 +1,14 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - []
+[CONSOLE] log - [LiteSpeed] Start Load JS Delayed
+[CONSOLE] log - [LiteSpeed] Load  JSHandle@node
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1 -> net::ERR_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] log - []
