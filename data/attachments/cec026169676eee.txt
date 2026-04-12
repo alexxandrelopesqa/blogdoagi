@@ -1,0 +1,18 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> net::ERR_ABORTED
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - []
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/o-que-acontece-com-quem-nao-votar/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 ()
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+[CONSOLE] error - [BACKGROUND-BLUR] Failed to load the amp-img or amp-video.
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+[PAGE_ERROR] Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+    at o (https://cdn.ampproject.org/v0.mjs:2:965)
+    at Et.createError (https://cdn.ampproject.org/v0.mjs:2:204103)
+    at https://cdn.ampproject.org/v0.mjs:2:32965
+    at https://cdn.ampproject.org/v0.mjs:2:32983
