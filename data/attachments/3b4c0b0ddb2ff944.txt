@@ -1,0 +1,22 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - {reload: yes}
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[REQUEST_FAILED] GET https://blog.agibank.com.br/cdb/?relatedposts=1 -> Load request cancelled
+[REQUEST_FAILED] POST https://stats.g.doubleclick.net/g/collect?v=2&tid=G-3Q54QHWXZY&cid=102527334.1776204060&gtm=45je64d1v9131128777za200zd9131128777&rcb=11&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938465~115938469~117266401 -> Load request cancelled
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45je64d1v9131128777za200zd9131128777&_p=1776204059234&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGA&cid=102527334.1776204060&frm=0&pscdl=noapi&rcb=11&sr=1280x720&ul=en-us&_s=1&tag_exp=0~115938465~115938469~117266401&sid=1776204059&sct=1&seg=0&dl=https%3A%2F%2Fblog.agibank.com.br%2Fcdb%2F&dr=https%3A%2F%2Fblog.agibank.com.br%2Fcdb%2F&dt=Tudo%20que%20voc%C3%AA%20precisa%20saber%20sobre%20CDB%20-%20Blog%20do%20Agi&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=640 -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
