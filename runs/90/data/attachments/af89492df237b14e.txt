@@ -1,0 +1,37 @@
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/astra-local-fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/astra-local-fonts/source-sans-pro/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/litespeed-cache/assets/css/litespeed-dummy.css?m=1775066007 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "https://blog.agibank.com.br/" line: 0}]
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyNkN0KwjAMRl/IGqbivBEfRbo0zrr+0aSOvb1lOmQXgpdJzvdxyJgUxiAUBHxRyZXeBoYxYfR8hwdJ0jhcnxRMzKCLRK9FLC4XVUMzDJwRumKdeYdV5yIOXMsNKZbJ0a/9Fpk341djcXB6ikVUn62BFWgDumKIoc5gLAvU3hRDDfOH9Db8plOmG2UKSH/hs7AiY6V+YMVf/Llp22Nzag/73Qvd1nyD -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJxljUsOwjAMRC9EavFtN4izpIkLI/KpYqOqt8cCVSzYzGL0Zt4yu1CLclHSB2cW8qLNWwqrUBChjIIJHCnUPHvFiARdSaDsasMdpTOkM3S3/N4+Ny7V4JObrJP/ZpughPSK/LVFiNJo1NMljM03M+maeHPc8nXf9+fhdLgMxzc/r0bf -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9DNzEvOKU1JLdbPKtbPTU3JTEzNSc1NzStB4RTkJFamFunmpKYnJlfq5Wbm6SUXF+uU49ENlEPmw/TY59oamhkYGluamFuYAQAJTC6K -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9BNzs8rSc0r0S/IKU3PzCvWT85PyslPzi7WT8ksLtEvLqnMSdWFieka6iUXF+uUk6grtQKotjgzP6+YLO2JeZm5iSVA7SDd9rm2huaGlkbmZqYGRgCmdkf0 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJx1jMsKgCAQAH8oW6SHXaJPidqWMJ+4ir8fHTx2nWGmRoHBZ/IZoi239gwP5XiggV17hNMGNAxcdaTUI3NX/wsXrmKJAY8UCpNtQjTwDTa3SqXkMg5qml9FDS9G -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJx1jkGOwjAMRS9ESCmgskFskDgAJ0gTE1m4dlQ7qrj9ZBixGAHLb/33/JfiorABmy9UM7L6KCNJvKtHjlQTqD9DAU7AEVu4yDmk9PBXe1CLY0VKnoKB2jqqrpZ3YyXDqTVcA4XV3WR2ubbKCHP2QRWsvVX1WiDaHNxzgCuiaCiMnNcT8jf7Cyqz/HMRxvsnrhaSkNqqkN2f44Xtuq57nhvhdpuu/0VP03EzDPtD32/3ww8XqnCJ -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://s0.wp.com/wp-content/js/bilmur.min.js?m=202616 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://stats.wp.com/e-202616.js -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/?custom-css=a861762854 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-content/plugins/jetpack/_inc/build/subscriptions/subscriptions.min.css,wp-content/plugins/wp-whatsapp-chat/build/frontend/css/style.css?m=1776145924 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://cdn.ampproject.org/amp-story-player-v0.css?ver=v0 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-content/plugins/gosign-posts-slider-block/dist/blocks.style.build.css,wp-content/plugins/spectra-pro/dist/style-blocks.css?m=1773424344 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2025/11/cropped-Design-sem-nome-75-1.png?resize=160%2C53&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
