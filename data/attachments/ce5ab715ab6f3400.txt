@@ -1,0 +1,26 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2026/04/Artigo-7-1.png?w=700&ssl=1 -> NS_BINDING_ABORTED
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] warning - [JavaScript Warning: "The resource at “https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[REQUEST_FAILED] POST https://pixel.wp.com/boom.gif?bilmur=1&batcache_hit=1&provider=wordpress.com&service=atomic&site_tz=America%2FSao_Paulo&custom_props=%7B%22woo_active%22%3A%220%22%2C%22logged_in%22%3A%220%22%2C%22wptheme%22%3A%22astra%22%2C%22wptheme_is_block%22%3A%220%22%7D&site_host=blog.agibank.com.br&site_path=%2F&full_path=%2F&version=4.4.0&edge_dc=dfw&edge_status=HIT&edge_dur=1&nt=2--56_57___1_8_3s_3t_4n_47_4n_52_62_56_79_b7_b9_cp_cp_cq--_0__--h2&reporter=sendBeacon&fcp=325&fcp_raw=325&lcp=325&lcp_prio=high&lcp_raw=325&lcp_sel=div.ast-site-identity.site-branding%3Espan.site-logo-img%3Ea.custom-logo-link%3Eimg.custom-logo&lcp_type=img&lcp_res=https%3A%2F%2Fi0.wp.com%2Fblog.agibank.com.br%2Fwp-content%2Fuploads%2F2025%2F11%2Fcropped-Design-sem-nome-75-1.png%3Fresize%3D160%252C53%26ssl%3D1&lcp_pre=0&ttfb=182&nav_type=reload -> NS_ERROR_NET_RESET
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
