@@ -1,0 +1,92 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - {reload: yes}
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-admin/admin-ajax.php?action=pys_get_pbid -> Load request cancelled
+[REQUEST_FAILED] GET https://connect.facebook.net/en_US/fbevents.js -> Load request cancelled
+[PAGE_ERROR] XMLHttpRequest cannot load https: /e.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://e.clarity.ms/collect due to access control checks.
+    at pi (https://scripts.clarity.ms/0.8.59/clarity.js:2:59257)
+    at unknown (https://scripts.clarity.ms/0.8.59/clarity.js:2:58655)
+    at unknown (https://scripts.clarity.ms/0.8.59/clarity.js:2:9499)
+    at o (https://scripts.clarity.ms/0.8.59/clarity.js:2:8321)
+[PAGE_ERROR] XMLHttpRequest cannot load https: /e.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://e.clarity.ms/collect due to access control checks.
+    at pi (https://scripts.clarity.ms/0.8.59/clarity.js:2:59268)
+    at vi (https://scripts.clarity.ms/0.8.59/clarity.js:2:59563)
+    at unknown (https://scripts.clarity.ms/0.8.59/clarity.js:2:73436)
+    at unknown (https://scripts.clarity.ms/0.8.59/clarity.js:2:59161)
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyNz1EKwjAMBuALWTO30bkH8WXgATyAZG2UamzL0jJ2eycoiIL6lj8hX8gYlQk+kU8QOZ+cFzCh52AuAs4bzpYEOorkLXnj5rALHVo7wT5NPMc+O7bAmEjS0ogsxk/xTCmiucBhFuGBy+giDb82rsHm+xWDQ8hC/ByoZ+NfIDkmq07ITMP0Lb2DOXJAK4CSBlTz58G/1kq3VFY96pr68rhWVVnVui3aO7O9blZNo+uqLtb6Bu4ShZ4= -> Load request cancelled
+[REQUEST_FAILED] GET https://www.googletagmanager.com/gtag/js?id=G-3Q54QHWXZY -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/js/7fe7636017a03a6e69684000646ba834.js?ver=ba834 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyNkN0KwjAMRl/IGpzg9EJ8FOnSOOv6R5M69vaW6RAvBl4mOd/HIWNSGINQEPBFJVd6GxjGhNHzHR4kSeNwfVIwMYMuEr0WsbhcVA3NMHBG6Ip15h1WnYs4cC03pFgmR2v7LTJvxq/G4uD0FIuoPlsDP6AN6IohhjqDsSxQe1MMNcwf0tuwTqdMN8oUkP7CZ2FFxkr9wA9/8edd2x7a0745Ni/d83yJ -> Load request cancelled
+[REQUEST_FAILED] GET https://s0.wp.com/wp-content/js/bilmur.min.js?m=202617 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJydUtFOwzAM/CGyCLFRXhCfgtzE3bwlcRS7rcbXkxYieFgl2Euk2L6z7+w5G8dJManNYTxSEntGzeAu9p2Ss/1IwVtKAyVSNOIKh9D+112ktDvLw/zDoieMKBZEC9RXUCuj2FpIA6G3Q1kL/R3QQFOdAKG40x1oUXKXqxHy2EO5QdD0O+4Du4tYT6ILRQsYSBRBif+MnKpQLmKVUu08U8by76YL9gtqFs8JAn1s0qzqq0atTizrC9RbTj1D8ZSOzZa1h2LMAepOc8GJcLYRNi2RjG4hzoV/WRuYs1kPZHOeG7fkoPAoGFrOtMD3St7i62PXPe/3L0/d4RMPxv/L -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9DNzEvOKU1JLdbPKtbPTU3JTEzNSc1NzStB4RTkJFamFunmpKYnJlfq5Wbm6SUXF+uU49ENlEPmw/TY59oamhkYGluamFuYAQAJTC6K -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/css/038390bdff7cb1d55e056e3dcb28cec4.css?ver=5ecc3 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-content/plugins/jetpack/_inc/build/subscriptions/subscriptions.min.css,wp-content/plugins/wp-whatsapp-chat/build/frontend/css/style.css?m=1776793913 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/css/40f3afd12c375f94ba8e6a63f121b374.css?ver=1b374 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/keycodes.min.js?ver=34c8fb5e7a594a1c8037 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/js/bad29019232c2c5238e1c98685f13bc4.js?ver=13bc4 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyljFEKwyAQRC/UjWgg7U/pWVKzyFpdjauE3D4KuUFhmGEezBwZiG1oG4ryXXvDct4BkVxZK06RePLyODLYxBW5qhyaIxblkpBjyEmqgATasMA3JPtTUuw47GyU4X/edNbXn/jWz9mYl5n1cgHiskY/ -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJx9zEsKgCAQANALNX4qqk10FrEBR0YzRvH6rdpF+8frBSh7bieKjqJPkqpRvCsIoSZWibKKMvQvxpgw1z9CAhIc89UB7+be7ki7XRdrJrPN4wN0mS7Z -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-content/plugins/gosign-posts-slider-block/dist/blocks.style.build.css,wp-content/plugins/spectra-pro/dist/style-blocks.css?m=1773424344 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-includes/js/dist/shortcode.min.js,wp-includes/js/dist/warning.min.js?m=1761030842 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/blocks.min.js?ver=57eca4d23daac7159d88 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJwrL9BNzs8rSc0r0S/IKU3PzCvWT85PyslPzi7WT8ksLtEvLqnMSdWFieka6iUXF+uUk6grtQKotjgzP6+YLO2JeZm5iSVA7SDd9rm2huaGlkbmZqYGRgCmdkf0 -> Load request cancelled
+[REQUEST_FAILED] GET https://www.googletagmanager.com/gtag/js?id=GT-NFBTF8V&l=dataLayerPYS -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/js/12298b1a39fb99656c38521b6639fc78.js?ver=9fc78 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJydkNEOgjAMRX/IOtFE4oPxWxrWwcB1yzog/L2I+kAkKr40ze3tucntAxSeE3FS4dqWlkWhpIiAWnsed6EkqhblLFtjSSsTJ7+GEP12VLe1bPovlPscJd0hF6Sh8r6RJfbcAZJs0QxQEWqKYLxPFNdFzghLiTPDOjZjB464XcI6KnE6wquuP6sSwlhUH7t6WH7lv4NCG60Znv8Xd87yY57vs9NhdwN74cwM -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJxljUsKwkAQRC/kpCMGgwvxLJOZjhbOJ0y3hNzeRgku3NSieFVvXVyoRbko6YMzC3nR5i2FVSiIUEbBDI4Ual68YkKCbiRQdrXhjtIZ0hl6WH9vnxuXavDJzdbJf7NPUEJ6Rf7aIkRpMurpEqbmm5l0S7w7bvl6HMfzcBr6S/8GP45G1Q== -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJyFy0EOwiAQQNELSWnVqBvjWaYwxqHAEGZojafXhUuD6//+VgxlF5tHsUGsJ1G7YvZcbUVwaoI8TW1ZKeGQKA9BdtuPB5py6YE58vynu8UIVoJIL1DibDzeoUU1Beon9O4H8yI94LFUdKDou4rTN9/SdTqfpvEwXo77N38SbFo= -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/js/25941f039074ba69b8c94a791a089a15.js?ver=1ca6b -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-content/plugins/litespeed-cache/assets/css/litespeed-dummy.css,wp-content/plugins/jetpack/modules/infinite-scroll/infinity.css?m=1775066007 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??-eJx9zDkOgCAQAMAPCXhFbYxvIbDFGjlkWdHfa2Nn7CdTokBvNrZAaiVlkbKKCUPCfImdgUE69HKlqnxIE1wM9Eue7NAZhI5Ify6B5VOkwBn9Gy5ubsahqbt66tsbjGg+gA== -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/js/8805412593c2bae871d8ae5cd0dcd41b.js?ver=cd41b -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/css/2e0f98fcf6bbdc3477b472321dd0c1da.css?ver=47923 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/litespeed/js/4b22ef1992233d5bcc1b17460978e443.js?ver=8e443 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-includes/js/dist/html-entities.min.js,wp-includes/js/dist/dom-ready.min.js?m=1761030842 -> Load request cancelled
+[REQUEST_FAILED] GET https://stats.wp.com/e-202617.js -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/?custom-css=44e496385b -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0.mjs -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/o-que-acontece-com-quem-nao-votar/
+[CONSOLE] info - Successfully preconnected to https://blog.agibank.com.br/
+[CONSOLE] info - Successfully preconnected to https://images.unsplash.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2204473401_Easy-Resize.com_.jpg​​​
+[CONSOLE] error - [BACKGROUND-BLUR] Failed to load the amp-img or amp-video.
+[PAGE_ERROR] Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+Unhandled Promise Rejection: Error: Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/04/20044252-2542-424c-9b9c-ffe016f17340.png​​​
+    at unknown (https://cdn.ampproject.org/v0.mjs:2:974)
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/07/calendario-bolsa-familia-de-julho-2024.jpg​​​
+[CONSOLE] error - Failed to load: https://blog.agibank.com.br/wp-content/uploads/2024/10/shutterstock_2289919691_Easy-Resize.com_.jpg​​​
