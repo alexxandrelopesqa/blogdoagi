@@ -1,0 +1,32 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] error - [JavaScript Error: "Cookie “_clck” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 0}]
+[CONSOLE] log - JSHandle@object
+[CONSOLE] warning - [JavaScript Warning: "The script from “https://www.googletagmanager.com/gtag/js?id=GT-NFBTF8V&l=dataLayerPYS&is_td=1&v=3&t=t&pid=272967792&gtm=45Pe64r1v9131128777za200zd9131128777&seq=2&exp=0~115616986~115938466~115938469~117266400~118289195~118463262&dl=blog.agibank.com.br%2Femprestimo-bolsa-familia%2F&tdp=GT-NFBTF8V;131128777;0;0;0&mde=G-3Q54QHWXZY;17_1;19_1~GT-NFBTF8V;61_1&mbc=1&z=0” was loaded even though its MIME type (“text/plain”) is not a valid JavaScript MIME type." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 0}]
+[REQUEST_FAILED] GET https://connect.facebook.net/en_US/fbevents.js -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/emprestimo-bolsa-familia/?relatedposts=1 -> NS_BINDING_ABORTED
+[REQUEST_FAILED] POST https://k.clarity.ms/collect -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-admin/admin-ajax.php?action=pys_get_pbid -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=80E44BFF48C64288876CA0AC8E790281&RedC=c.clarity.ms&MXFR=2CB07FC3E0896AC718396889E489642F -> NS_BINDING_ABORTED
+[CONSOLE] warning - [JavaScript Warning: "Loading failed for the <script> with source “https://www.googletagmanager.com/gtag/js?id=GT-NFBTF8V&l=dataLayerPYS&is_td=1&v=3&t=t&pid=272967792&gtm=45Pe64r1v9131128777za200zd9131128777&seq=2&exp=0~115616986~115938466~115938469~117266400~118289195~118463262&dl=blog.agibank.com.br%2Femprestimo-bolsa-familia%2F&tdp=GT-NFBTF8V;131128777;0;0;0&mde=G-3Q54QHWXZY;17_1;19_1~GT-NFBTF8V;61_1&mbc=1&z=0”." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 1}]
+[CONSOLE] warning - [JavaScript Warning: "Loading failed for the <script> with source “https://connect.facebook.net/en_US/fbevents.js”." {file: "https://blog.agibank.com.br/emprestimo-bolsa-familia/" line: 1}]
+[REQUEST_FAILED] POST https://k.clarity.ms/collect -> NS_BINDING_ABORTED
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "debugger eval code" line: 383}]
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
