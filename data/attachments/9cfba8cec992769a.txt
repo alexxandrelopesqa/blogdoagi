@@ -1,0 +1,32 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - {reload: yes}
+[REQUEST_FAILED] GET https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/ -> Frame load interrupted
+[PAGE_ERROR] XMLHttpRequest cannot load https: /s.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://s.clarity.ms/collect due to access control checks.
+    at pi (https://scripts.clarity.ms/0.8.59/clarity.js:2:59257)
+    at unknown (https://scripts.clarity.ms/0.8.59/clarity.js:2:58655)
+    at unknown (https://scripts.clarity.ms/0.8.59/clarity.js:2:9499)
+    at o (https://scripts.clarity.ms/0.8.59/clarity.js:2:8321)
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
