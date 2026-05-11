@@ -1,0 +1,130 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-top-navigation and allow-top-navigation-by-user-activation for its sandbox attribute will permit top navigations." {file: "about:blank" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can remove its sandboxing." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-top-navigation and allow-top-navigation-by-user-activation for its sandbox attribute will permit top navigations." {file: "about:blank" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can remove its sandboxing." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_clck” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe" line: 0}]
+[CONSOLE] log - JSHandle@object
+[REQUEST_FAILED] GET https://fonts.googleapis.com/css2?display=swap&family=Lato%3Awght%40400%3B700&family=Roboto -> NS_BINDING_ABORTED
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "“agibank.com.br” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-admin/admin-ajax.php?action=pys_get_pbid -> NS_BINDING_ABORTED
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "debugger eval code" line: 383}]
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - LiteSpeed: skipping guest vary reload (already reloaded this session)
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0" line: 2}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-top-navigation and allow-top-navigation-by-user-activation for its sandbox attribute will permit top navigations." {file: "about:blank" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can remove its sandboxing." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-top-navigation and allow-top-navigation-by-user-activation for its sandbox attribute will permit top navigations." {file: "about:blank" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can remove its sandboxing." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe" line: 0}]
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_clsk” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "InstallTrigger is deprecated and will be removed in the future." {file: "https://stats.wp.com/e-202620.js" line: 1}]
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-admin/admin-ajax.php?action=pys_get_pbid -> NS_BINDING_ABORTED
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-json/wp/v2/posts?_embed=1&post_type=ast_queried:post:page&per_page=6&search=Agi -> NS_BINDING_ABORTED
+[PAGE_ERROR] SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+    at l.onreadystatechange (https://blog.agibank.com.br/_static/??-eJytlNFugzAMRX9oWcReqj1M+5ZADLhN4igOoO7rZ6CVWgkiOu0FJPA9zr2JM0XVUMgQss49eGBtOCcjT4bM+szaY8AWweo2LYX2Xb68n/ltOi51OIJiMKnp/6DmjM3lqhgt1CZtAKIbOgysG6odNRfWFjnPiPsHZQJ6k5EOK0cxSol1xiCdJ4yQXm46a1epEisZjcOfXcziXjxmSQJDI5HVmkJNJlkM3T2WpUcGH53JoGKCEWHS3uxGwhGaGRwTPUTriKKqB3R2dz2Dy3NkoIy1FFi1lFQ3SEkNqXtA3RssnlUkcSAxy5IL+3SULbT8Dxgp6oAdGQtbh7ccFTs5fAXVum/LCkpDM1OPUhY38hpNaMCqnujCW+znCnUbkx7EZ5IwKENpWDZaPhEKk7gWvMYOZlQewrCF9dCZ5acq3DFHolqvmGJWu7fQwQ2NQ8L2etN/+6/qdDp9Vqfqo/oFr6kE9A==:2:1445)
+    at EventHandlerNonNull* (https://blog.agibank.com.br/_static/??-eJytlNFugzAMRX9oWcReqj1M+5ZADLhN4igOoO7rZ6CVWgkiOu0FJPA9zr2JM0XVUMgQss49eGBtOCcjT4bM+szaY8AWweo2LYX2Xb68n/ltOi51OIJiMKnp/6DmjM3lqhgt1CZtAKIbOgysG6odNRfWFjnPiPsHZQJ6k5EOK0cxSol1xiCdJ4yQXm46a1epEisZjcOfXcziXjxmSQJDI5HVmkJNJlkM3T2WpUcGH53JoGKCEWHS3uxGwhGaGRwTPUTriKKqB3R2dz2Dy3NkoIy1FFi1lFQ3SEkNqXtA3RssnlUkcSAxy5IL+3SULbT8Dxgp6oAdGQtbh7ccFTs5fAXVum/LCkpDM1OPUhY38hpNaMCqnujCW+znCnUbkx7EZ5IwKENpWDZaPhEKk7gWvMYOZlQewrCF9dCZ5acq3DFHolqvmGJWu7fQwQ2NQ8L2etN/+6/qdDp9Vqfqo/oFr6kE9A==:2:1365)
+    at _insertText (chrome://juggler/content/content/PageAgent.js:570:32)
+    at _onMessageInternal (chrome://juggler/content/SimpleChannel.js:237:37)
+    at _onMessage (chrome://juggler/content/SimpleChannel.js:194:12)
+    at bindToActor/actor.receiveMessage (chrome://juggler/content/SimpleChannel.js:39:44)
+[REQUEST_FAILED] POST https://q.clarity.ms/collect -> NS_BINDING_ABORTED
+[CONSOLE] log - PixelYourSite Free version 11.2.0.4
+[CONSOLE] warning - [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "debugger eval code" line: 383}]
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] warning - [JavaScript Warning: "downloadable font: no supported format found (font-family: "Agibank Sans" style:normal weight:400 stretch:100 src index:1) source: (end of source list)"]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] warning - [JavaScript Warning: "The value of the attribute “expires” for the cookie “_ga_3Q54QHWXZY” has been overwritten." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_ga_3Q54QHWXZY” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
+[CONSOLE] error - [JavaScript Error: "Cookie “_clsk” has been rejected for invalid domain." {file: "https://blog.agibank.com.br/?s=Agi" line: 0}]
