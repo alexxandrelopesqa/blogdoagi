@@ -1,0 +1,49 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.5
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] error - Failed to load resource: the server responded with a status of 429 (Unknown Error)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/?custom-css=df121d40a8 -> Load request cancelled
+[CONSOLE] error - Failed to load resource: the server responded with a status of 429 (Unknown Error)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/_static/??wp-includes/js/dist/html-entities.min.js,wp-includes/js/dist/dom-ready.min.js?m=1761030842 -> Load request cancelled
+[PAGE_ERROR] TypeError: o() is not a function. (In 'o()(s)', 'o()' is undefined)
+TypeError: o() is not a function. (In 'o()(s)', 'o()' is undefined)
+    at unknown (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:2136)
+    at global code (https://blog.agibank.com.br/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed:2:2174)
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[PAGE_ERROR] TypeError: a() is not a function. (In 'a()((()=>{if(!o())return;const e=document.createElement("style");e.id="starter-templates-logo-css",document.getElementsByTagName("head")[0].appendChild(e),e.innerHTML=".site-logo-img img { transition: unset; } #wpadminbar { display: none; } html{  margin-top: 0 !important; }}";const t=(a=n,JSON.parse(localStorage.getItem(a)));var a;t&&Object.keys(t.data).map((e=>i({value:{param:e,data:t.data[e]}})))}))', 'a()' is undefined)
+TypeError: a() is not a function. (In 'a()((()=>{if(!o())return;const e=document.createElement("style");e.id="starter-templates-logo-css",document.getElementsByTagName("head")[0].appendChild(e),e.innerHTML=".site-logo-img img { transition: unset; } #wpadminbar { display: none; } html{  margin-top: 0 !important; }}";const t=(a=n,JSON.parse(localStorage.getItem(a)));var a;t&&Object.keys(t.data).map((e=>i({value:{param:e,data:t.data[e]}})))}))', 'a()' is undefined)
+    at unknown (https://blog.agibank.com.br/_static/??-eJytlNFugzAMRX9oWcReqj1M+5ZADLhN4igOoO7rZ6CVWgkiOu0FJPA9zr2JM0XVUMgQss49eGBtOCcjT4bM+szaY8AWweo2LYX2Xb68n/ltOi51OIJiMKnp/6DmjM3lqhgt1CZtAKIbOgysG6odNRfWFjnPiPsHZQJ6k5EOK0cxSol1xiCdJ4yQXm46a1epEisZjcOfXcziXjxmSQJDI5HVmkJNJlkM3T2WpUcGH53JoGKCEWHS3uxGwhGaGRwTPUTriKKqB3R2dz2Dy3NkoIy1FFi1lFQ3SEkNqXtA3RssnlUkcSAxy5IL+3SULbT8Dxgp6oAdGQtbh7ccFTs5fAXVum/LCkpDM1OPUhY38hpNaMCqnujCW+znCnUbkx7EZ5IwKENpWDZaPhEKk7gWvMYOZlQewrCF9dCZ5acq3DFHolqvmGJWu7fQwQ2NQ8L2etN/+6/qdDp9Vqfqo/oFr6kE9A==:25:6177)
+    at unknown (https://blog.agibank.com.br/_static/??-eJytlNFugzAMRX9oWcReqj1M+5ZADLhN4igOoO7rZ6CVWgkiOu0FJPA9zr2JM0XVUMgQss49eGBtOCcjT4bM+szaY8AWweo2LYX2Xb68n/ltOi51OIJiMKnp/6DmjM3lqhgt1CZtAKIbOgysG6odNRfWFjnPiPsHZQJ6k5EOK0cxSol1xiCdJ4yQXm46a1epEisZjcOfXcziXjxmSQJDI5HVmkJNJlkM3T2WpUcGH53JoGKCEWHS3uxGwhGaGRwTPUTriKKqB3R2dz2Dy3NkoIy1FFi1lFQ3SEkNqXtA3RssnlUkcSAxy5IL+3SULbT8Dxgp6oAdGQtbh7ccFTs5fAXVum/LCkpDM1OPUhY38hpNaMCqnujCW+znCnUbkx7EZ5IwKENpWDZaPhEKk7gWvMYOZlQewrCF9dCZ5acq3DFHolqvmGJWu7fQwQ2NQ8L2etN/+6/qdDp9Vqfqo/oFr6kE9A==:25:6581)
+    at global code (https://blog.agibank.com.br/_static/??-eJytlNFugzAMRX9oWcReqj1M+5ZADLhN4igOoO7rZ6CVWgkiOu0FJPA9zr2JM0XVUMgQss49eGBtOCcjT4bM+szaY8AWweo2LYX2Xb68n/ltOi51OIJiMKnp/6DmjM3lqhgt1CZtAKIbOgysG6odNRfWFjnPiPsHZQJ6k5EOK0cxSol1xiCdJ4yQXm46a1epEisZjcOfXcziXjxmSQJDI5HVmkJNJlkM3T2WpUcGH53JoGKCEWHS3uxGwhGaGRwTPUTriKKqB3R2dz2Dy3NkoIy1FFi1lFQ3SEkNqXtA3RssnlUkcSAxy5IL+3SULbT8Dxgp6oAdGQtbh7ccFTs5fAXVum/LCkpDM1OPUhY38hpNaMCqnujCW+znCnUbkx7EZ5IwKENpWDZaPhEKk7gWvMYOZlQewrCF9dCZ5acq3DFHolqvmGJWu7fQwQ2NQ8L2etN/+6/qdDp9Vqfqo/oFr6kE9A==:25:6585)
+[PAGE_ERROR] TypeError: $scope.imagesLoaded is not a function. (In '$scope.imagesLoaded( function() {
+									$scope.slick( slider_options );
+								})', '$scope.imagesLoaded' is undefined)
+TypeError: $scope.imagesLoaded is not a function. (In '$scope.imagesLoaded( function() {
+									$scope.slick( slider_options );
+								})', '$scope.imagesLoaded' is undefined)
+    at unknown (https://blog.agibank.com.br/:650:28)
+    at unknown (https://blog.agibank.com.br/:668:11)
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2603032146000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[REQUEST_FAILED] GET https://blog.agibank.com.br/web-stories/o-que-acontece-com-quem-nao-votar/ -> Load request cancelled
+[REQUEST_FAILED] GET https://www.facebook.com/tr/?id=672687818943482&ev=PageView&dl=https%3A%2F%2Fblog.agibank.com.br%2F%23&rl=&if=false&ts=1778537671735&sw=1280&sh=720&v=2.9.319&r=stable&a=dvpixelyoursite&ec=1&o=29&it=1778537671734&coo=false&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct0&expv2[6]=hf1&rqm=GET -> Load request cancelled
+[REQUEST_FAILED] POST https://v.clarity.ms/collect -> Load request cancelled
+[REQUEST_FAILED] POST https://v.clarity.ms/collect -> Load request cancelled
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe6581v9131128777za200zd9131128777&_p=1778537667498&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGQ&cid=1759621822.1778537668&frm=0&pscdl=noapi&rcb=16&sr=1280x720&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938468~118463262&sid=1778537667&sct=1&seg=0&dl=https%3A%2F%2Fblog.agibank.com.br%2F&dt=Agi%20Blog%20%7C%20Tudo%20sobre%20empr%C3%A9stimo%20e%20educa%C3%A7%C3%A3o%20financeira&en=user_engagement&_et=4238&tfd=5504 -> Load request cancelled
+[CONSOLE] log - PixelYourSite Free version 11.2.0.5
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
