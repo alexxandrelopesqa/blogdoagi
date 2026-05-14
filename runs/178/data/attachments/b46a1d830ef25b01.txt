@@ -1,0 +1,86 @@
+[CONSOLE] log - PixelYourSite Free version 11.2.0.5
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] log - {reload: yes}
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0/amp-analytics-0.1.mjs -> Load request cancelled
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0/amp-story-1.0.js -> Load request cancelled
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0.mjs -> Load request cancelled
+[REQUEST_FAILED] GET https://fonts.googleapis.com/css2?display=swap&family=Lato%3Awght%40400%3B700&family=Roboto -> Load request cancelled
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0/amp-story-auto-analytics-0.1.mjs -> Load request cancelled
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0/amp-story-1.0.css -> Load request cancelled
+[REQUEST_FAILED] GET https://cdn.ampproject.org/v0/amp-story-1.0.mjs -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/uploads/2026/03/1.png -> Load request cancelled
+[REQUEST_FAILED] GET https://connect.facebook.net/en_US/fbevents.js -> Load request cancelled
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/10/cropped-shutterstock_2204473401_Easy-Resize.com_.jpg?w=640&ssl=1 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/gosign-posts-slider-block/src/block/slick/ajax-loader.gif -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/gosign-posts-slider-block/src/block/slick/fonts/slick.woff -> Load request cancelled
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2026/03/cropped-Artigo-93.png?w=640&ssl=1 -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-admin/admin-ajax.php?action=pys_get_pbid -> Load request cancelled
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/09/homem-monitorando-contas.jpg?w=640&ssl=1 -> Load request cancelled
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/09/cropped-shutterstock_2488487093_Easy-Resize.com_.jpg?w=640&ssl=1 -> Load request cancelled
+[REQUEST_FAILED] GET https://i0.wp.com/blog.agibank.com.br/wp-content/uploads/2024/09/cropped-Onur-Binay-Unsplash_Easy-Resize.com_.jpg?w=640&ssl=1 -> Load request cancelled
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[PAGE_ERROR] XMLHttpRequest cannot load https: /k.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://k.clarity.ms/collect due to access control checks.
+    at Sr (https://scripts.clarity.ms/0.8.64/clarity.js:2:49303)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:48749)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:6503)
+    at o (https://scripts.clarity.ms/0.8.64/clarity.js:2:5325)
+[PAGE_ERROR] XMLHttpRequest cannot load https: /k.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://k.clarity.ms/collect due to access control checks.
+    at Sr (https://scripts.clarity.ms/0.8.64/clarity.js:2:49314)
+    at Er (https://scripts.clarity.ms/0.8.64/clarity.js:2:49613)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:59131)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:49207)
+[CONSOLE] log - PixelYourSite Free version 11.2.0.5
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
+[CONSOLE] info - Successfully preconnected to https://cdn.ampproject.org/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://fonts.gstatic.com/
+[CONSOLE] info - Powered by AMP ⚡ HTML – Version 2605071401000 https://blog.agibank.com.br/web-stories/simone-mendes-e-a-nova-embaixadora-do-agibank/#visibilityState=prerender&origin=https%3A%2F%2Fblog.agibank.com.br&showStoryUrlInfo=0&storyPlayer=v0&cap=swipe
+[CONSOLE] log - [LiteSpeed] Start Lazy Load
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/uploads/2026/03/1-576x1024.png -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-admin/admin-ajax.php?action=pys_get_pbid -> Load request cancelled
+[REQUEST_FAILED] GET https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=8DDFAB3414E049DC8F68696EEB5ECC71&MUID=11149B070BE46C121E208C5E0A676D7E -> Load request cancelled
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-json/wp/v2/posts?_embed=1&post_type=ast_queried:post:page&per_page=6&search=xyz123_nonexistent_search -> Load request cancelled
+[REQUEST_FAILED] POST https://k.clarity.ms/collect -> Load request cancelled
+[PAGE_ERROR] XMLHttpRequest cannot load https: /k.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://k.clarity.ms/collect due to access control checks.
+    at Sr (https://scripts.clarity.ms/0.8.64/clarity.js:2:49314)
+    at Er (https://scripts.clarity.ms/0.8.64/clarity.js:2:49613)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:59131)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:49207)
+[CONSOLE] error - Beacon API cannot load https://k.clarity.ms/collect. Reached maximum amount of queued data of 64Kb for keepalive requests
+[PAGE_ERROR] XMLHttpRequest cannot load https: /k.clarity.ms/collect due to access control checks.
+XMLHttpRequest cannot load https://k.clarity.ms/collect due to access control checks.
+    at Sr (https://scripts.clarity.ms/0.8.64/clarity.js:2:49314)
+    at Er (https://scripts.clarity.ms/0.8.64/clarity.js:2:51231)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:59131)
+    at unknown (https://scripts.clarity.ms/0.8.64/clarity.js:2:49207)
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe65c0v9131128777za200zd9131128777&_p=1778763830093&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGQ&cid=752009069.1778763827&frm=0&pscdl=noapi&rcb=14&sr=1280x720&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469&sid=1778763827&sct=1&seg=1&dl=https%3A%2F%2Fblog.agibank.com.br%2F&dr=https%3A%2F%2Fblog.agibank.com.br%2F&dt=Agi%20Blog%20%7C%20Tudo%20sobre%20empr%C3%A9stimo%20e%20educa%C3%A7%C3%A3o%20financeira&en=page_view&_ee=1&tfd=5048 -> Load request cancelled
+[REQUEST_FAILED] POST https://analytics.google.com/g/collect?v=2&tid=G-3Q54QHWXZY&gtm=45Pe65c0v9131128777za200zd9131128777&_p=1778763830093&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAAGQ&cid=752009069.1778763827&frm=0&pscdl=noapi&rcb=14&sr=1280x720&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469&sid=1778763827&sct=1&seg=1&dl=https%3A%2F%2Fblog.agibank.com.br%2F&dr=https%3A%2F%2Fblog.agibank.com.br%2F&dt=Agi%20Blog%20%7C%20Tudo%20sobre%20empr%C3%A9stimo%20e%20educa%C3%A7%C3%A3o%20financeira&en=user_engagement&_et=2727&tfd=5048 -> Load request cancelled
+[CONSOLE] log - PixelYourSite Free version 11.2.0.5
+[CONSOLE] info - Successfully preconnected to https://i0.wp.com/
+[CONSOLE] info - Successfully preconnected to https://c0.wp.com/
+[CONSOLE] error - Failed to load resource: the server responded with a status of 404 (Not Found)
+[REQUEST_FAILED] GET https://blog.agibank.com.br/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2 -> Load request cancelled
+[CONSOLE] log - JQMIGRATE: Migrate is installed, version 3.4.1
+[CONSOLE] warning - [GTM4WP] Google Tag Manager container code placement set to OFF !!!
+[CONSOLE] warning - [GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!
